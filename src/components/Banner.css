@@ -1,0 +1,72 @@
+#ReactBackgroundSlider > figure {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  top: 0px;
+  left: 0px;
+  color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: -1000;
+  margin: 0;
+  backface-visibility: hidden;
+  animation: imageAnimation 18s linear infinite -0.5s;
+}
+@keyframes imageAnimation {
+  /* 0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+} */
+
+6% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+}
+
+33% {
+    opacity: 1;
+}
+36% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 0;
+}
+}
+.background-image {
+  animation: slide 18s infinite;
+  color: transparent;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: -1000;
+  margin: 0;
+  backface-visibility: hidden;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    animation-timing-function: ease-in;
+}
+
+6% {
+    opacity: 1;
+    animation-timing-function: ease-out;
+}
+
+33% {
+    opacity: 1;
+}
+36% {
+    opacity: 0;
+}
+
+100% {
+    opacity: 0;
+}
+}
