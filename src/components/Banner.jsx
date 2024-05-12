@@ -102,7 +102,7 @@ export default function Banner() {
             className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]"
           />
          </a>
-         <a href="">
+         <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
           <CiFacebook
             width={50}

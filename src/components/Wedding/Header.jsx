@@ -19,10 +19,10 @@ export default function Header() {
 
                 <CiYoutube width={50} className='hover:text-red-500 transition-all text-[1.4rem]'/>
                </a>
-               <a href="#">
+               {/* <a href="#"> */}
 
                 <CiFacebook width={50} className='hover:text-blue-500 transition-all text-[1.4rem]'/>
-               </a>
+               {/* </a> */}
              </div>
       </div>
     </motion.div>

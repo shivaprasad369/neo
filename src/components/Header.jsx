@@ -4,7 +4,7 @@ import {motion } from "framer-motion";
 
 import { MdOutlineMenu } from "react-icons/md";
 import { IoCloseSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 export default function Header() {
   const [stick, setStick] = useState();
   const [menu,setMenu]=useState(false)

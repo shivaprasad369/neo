@@ -12,6 +12,7 @@ export default function Enquiry() {
             <div className='flex flex-col gap-2'>
             <h2 style={{fontFamily:'Lora'}} className='text-[2rem] tracking-wider font-[400] max-md:text-[1.5rem] max-md:text-center'>I want to know you!</h2>
             <p style={{fontFamily:'Lora'}} className='text-[14px] tracking-wider font-[400] max-md:text-center '>Tell me all about your love story and future dreams.</p>
+           {/* eslint-disable-next-line */}
             <a href="#" style={{fontFamily:'Lora'}} className='text-[11px] max-md:items-center max-md:justify-center max-md:ml-[25%] border-0 bg-black text-white px-[2rem] py-[0.6rem] tracking-wider font-[400] uppercase w-fit mt-4'>Inquire Here</a>
             </div>
         </div>
