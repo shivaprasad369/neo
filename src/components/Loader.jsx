@@ -1,6 +1,6 @@
 import React from "react";
-import { RiCameraLine } from "react-icons/ri";
-import {Loader, Oval, Vortex} from "react-loader-spinner";
+// import { RiCameraLine } from "react-icons/ri";
+import { Vortex} from "react-loader-spinner";
 
 const CameraLoader = () => (
   <div className="camera-loader justify-center items-center pt-[7rem] ml-[47%] ">

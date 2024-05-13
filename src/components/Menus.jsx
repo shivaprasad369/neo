@@ -2,7 +2,7 @@ import React from "react";
 // import { IoLogoInstagram } from "react-icons/io";
 import { CiFacebook, CiYoutube } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 export default function Menus() {
   return (
     <div className="w-full overflow-hidden flex justify-center items-center box-content  max-md:py-[2rem] md:py-[4rem] bg-[#ece8e2]">

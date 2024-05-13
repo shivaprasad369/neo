@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -15,7 +15,7 @@ import {
   EffectFade,
 } from "swiper/modules";
 import { motion } from "framer-motion";
-import { useLocation } from "react-router-dom";
+// import { useLocation } from "react-router-dom";
 export default function Testimonial() {
  
   return (
