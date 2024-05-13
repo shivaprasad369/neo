@@ -31,7 +31,7 @@ export default function Header() {
         y: 0,
         transition: { type: "spring", ease: "easeIn", duration: 0.4 },
       }}
-      className={`nav lg:px-[3rem] max-md:px-[2rem] z-40 overflow-hidden fixed w-[100vw] bg-[#d9c5a0db] shadow-md`}
+      className={`nav lg:px-[3rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] bg-[#d9c5a0db] shadow-md`}
     >
       <div className=" items-center w-[100%]   p-[1rem]  transition-all">
         <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
@@ -59,7 +59,7 @@ export default function Header() {
               </il>
             </ul>
           </div>
-          <div className="w-[8rem]">
+          <div className="md:w-[8rem] max-md:w-[6rem]">
             <img
               src={logo}
               alt=""
