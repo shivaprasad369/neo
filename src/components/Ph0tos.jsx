@@ -20,7 +20,7 @@ export default function Ph0tos() {
   return (
     <div className='flex bg-[#ece8e2] lg:px-[10%] md:px-[5%] sm:px-[3%] md:pt-[7rem] max-md:pt-[3rem] overflow-hidden  h-[100%]  '>
        <motion.div 
-      viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
+      // viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
        className='max-xl:shadow-md overflow-hidden shadow-black max-xl:border-[5px] w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e] h-[100%] '>
 
         <div 
