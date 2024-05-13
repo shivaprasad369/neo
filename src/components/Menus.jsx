@@ -47,10 +47,10 @@ export default function Menus() {
         
 <div className="flex flex-col uppercase max-md:mt-5 justify-center items-center" style={{fontFamily:'Lora'}}>
     <h1 className="uppercase text-xl font-bold md:mb-[1rem] max-md:mb-2">Menu</h1>
-    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><Link to={'/#home'}>home</Link></h4>
-    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><Link to={'/engegment/#home'}>Engagement</Link></h4>
-    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><Link to={'/wedding/#home'}>wedding</Link></h4>
-    <h4 className="hover:text-blue-600 transition-all  cursor-pointer"> <Link to={'/pre-wedding/#home'}>pre-wedding</Link></h4>
+    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><a href={'/#home'}>home</a></h4>
+    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><a  href={'/engegment/#home'}>Engagement</a></h4>
+    <h4 className="hover:text-blue-600 transition-all cursor-pointer"><a  href={'/wedding/#home'}>wedding</a></h4>
+    <h4 className="hover:text-blue-600 transition-all  cursor-pointer"> <a href={'/pre-wedding/#home'}>pre-wedding</a></h4>
 </div>
 
 <div className="flex md:hidden max-md:mt-[2rem] flex-col justify-center items-center  gap-5">

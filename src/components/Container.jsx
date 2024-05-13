@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import About1 from "./About1";
 import Intro from "./Intro";
 import NewAbout from "./NewAbout";
@@ -12,11 +12,20 @@ import Menus from "./Menus";
 import Footer from "./Footer";
 import Header from "./Header";
 import Banner from "./Banner";
-
+import CameraLoader from "./Loader";
+// import svg from './Loader.svg'
+// import Loader from "./Loader";
 export default function Containers() {
+ const [loader,setLoader]= useState(true)
+ setTimeout(()=>{
+  setLoader(false)
+ },3000)
   return (
     <div>
-      <Header />
+{loader ? <CameraLoader/> 
+:
+  <>
+    <Header />
       {/* <MobileMenu/> */}
       <Banner />
       <About1 />
@@ -32,6 +41,9 @@ export default function Containers() {
       {/* <About/> */}
       {/* <Gallery/> */}
       <Footer />
+  </>
+}
+    
     </div>
   );
 }

@@ -5,7 +5,9 @@ import { FaInstagram } from 'react-icons/fa'
 
 export default function Header() {
   return (
-    <motion.div viewport={{once:true}} initial={{y:50}} whileInView={{y:0,transition:{duration:2,type:'spring',ease:'easeIn'}}} className= 'lg:px-[3rem] max-md:px-[2rem] z-40 overflow-hidden justify-center items-center  w-[100vw] bg-[#9aa09ebe] shadow-md'>
+    <motion.div viewport={{once:true}} initial={{y:50}} 
+    whileInView={{y:0,transition:{duration:2,type:'spring',ease:'easeIn'}}} 
+    className= 'lg:px-[3rem] max-md:px-[2rem] z-40 overflow-hidden justify-center items-center  w-[100vw] bg-[#d9c5a0db] shadow-md'>
       <div className='flex justify-between max-w-[1320px]  md:px-[2rem] py-[1rem] ' >
         <div className='w-[6rem]'>
             <img src={require('../../assets/unoptiImages/NEO-logo.png')} alt="" />

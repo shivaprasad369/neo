@@ -17,16 +17,9 @@ import {
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 export default function Testimonial() {
-  const location = useLocation();
-
-  useEffect(() => {
-    const element = document.getElementById("testimonial");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [location]);
+ 
   return (
-    <div id="testimonial" className="bg-[#ece8e2] flex-col gap-10 w-[100%] sm:px-[3%] md:px-[5%] lg:px-[10%] max-md:px-[0%] pt-[3rem] flex overflow-hidden">
+    <div id="testimonial" className="bg-[#ece8e2]  flex-col gap-10 w-[100%] sm:px-[3%] md:px-[5%] lg:px-[10%] max-md:px-[0%] pt-[3rem] flex overflow-hidden">
       {/* <div className="flex flex-col justify-center items-center gap-3 box-content"> */}
       <motion.div viewport={{once:true}} initial={{y:200}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1}}} 
        className="flex flex-col gap-3 max-w-[1320px] justify-center items-center">
@@ -55,7 +48,7 @@ export default function Testimonial() {
             <div className="flex gap-10 bg-[#292929] h-[100%] justify-center items-center box-content ">
             <div className="flex md:gap-1 lg:gap-16 w-[100%] h-[100%] max-md:flex-col max-md:px-[4%] md:px-[3%] lg:px-[3rem] py-[1.5rem] shadow-xl">
                 <img
-                  className="lg:w-[35%] md:w-[35%] md:h-[] max-md:h-[100%] px-3 object-cover max-sm:h-[26rem]"
+                  className="lg:w-[22rem] md:w-[22rem] md:h-[] max-md:h-[100%] px-3 object-cover max-sm:h-[26rem]"
                   src={require("../assets/newImages/nikitha and rajendra 2.jpg")}
                   alt=""
                 />
@@ -95,7 +88,7 @@ export default function Testimonial() {
             <div className="flex gap-10 w-[100%] h-[100%] bg-[#292929] justify-center items-center box-content ">
             <div className="flex md:gap-1 lg:gap-16 w-[100%] h-[100%] max-md:flex-col max-md:px-[4%] md:px-[3%] lg:px-[3rem] py-[1.5rem] shadow-xl">
                 <img
-                  className="lg:w-[40%] md:w-[35%] md:h-[] max-md:h-[100%] px-3 object-cover max-sm:h-[26rem]"
+                  className="lg:w-[22rem] md:w-[22rem] xl:w-[25rem] md:h-[] max-md:h-[100%] px-3 object-cover max-sm:h-[26rem]"
                   src={require("../assets/newImages/shreya.png")}
                   alt=""
                 />
@@ -134,7 +127,7 @@ export default function Testimonial() {
             <div className="flex gap-10 h-[100%] overflow-hidden bg-[#292929] justify-center items-center box-content ">
             <div className="flex md:gap-1 lg:gap-16 w-[100%] h-[100%] max-md:px-[4%]  max-md:flex-col md:px-[3%] lg:px-[3rem] py-[1.5rem] shadow-xl">
                 <img
-                  className="lg:w-[45%] md:w-[35%] md:h-[] max-md:h-[100%] object-cover px-3 max-sm:h-[26rem]"
+                  className="lg:w-[22rem] md:w-[22rem] xl:w-[25rem] md:h-[] max-md:h-[100%] object-cover px-3 max-sm:h-[26rem]"
                   src={require("../assets/unoptiImages/eg2.jpg")}
                   alt=""
                 />

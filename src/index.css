@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Butterfly+Kids&family=Cookie&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Domine:wght@400..700&family=Great+Vibes&family=Imperial+Script&family=Khand:wght@300;400;500;600;700&family=Marcellus&family=Overpass:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playball&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rakkas&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Truculenta:opsz,wght@12..72,100..900&family=WindSong:wght@400;500&display=swap');
 .swiper-button-prev, .swiper-button-next {
   position: absolute;
   border:none;
@@ -25,10 +26,10 @@ padding-right: 1.5rem;
 body{
   overflow-x: hidden;
 }
-/* *{
-  outline: 1px red solid;
+*{
+  /* outline: 1px red solid; */
   
-} */
+}
 .nav{
   font-family: 'Dream', sans-serif;
 }

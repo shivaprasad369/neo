@@ -2,8 +2,8 @@ import React from "react";
 // Import Swiper React components
 
 import bg1 from "../assets/newImages/banner1.jpg";
-import bg2 from "../assets/newImages/banner3.jpg";
-import bg3 from "../assets/newImages/banner4.jpg";
+import bg2 from "../assets/b.jpg";
+import bg3 from "../assets/b1.jpg";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -58,23 +58,23 @@ export default function Banner() {
         </div>
         <div
           style={{ zIndex: 2 }}
-          className="absolute top-[30%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
+          className="absolute top-[35%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
          text-white uppercase tracking-wider "
         >
           <h4
             className="text-2xl justify-center items-center text-center"
-            style={{ fontFamily: "'Overpass', sans-serif" }}
+            style={{ fontFamily: "'Domine', sans-serif" }}
           >
             neo
           </h4>
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[6rem] md:leading-[6rem] text-center max-md:text-[2.6rem]
+            className="md:text-[6rem] md:leading-[6rem] text-center capitalize max-md:text-[2.6rem]
              max-md:flex-wrap"
-            style={{ fontFamily: '"Marcellus", serif' }}
+            style={{ fontFamily: '"Domine", serif' }}
           >
-          
+        {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
             wedding
             <br /> Photographer
           </motion.span>
@@ -87,26 +87,26 @@ export default function Banner() {
       </div>
       {/* <div className='absolute bottom-[-2rem] w-full h-[6rem] bg-[#c7bdbd35]'></div> */}
       <div>
-        <div className="flex gap-5 fixed top-[50%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
+        <div className="flex gap-5 fixed top-[55%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
          <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz">
 
           <FaInstagram
             width={50}
-            className="hover:text-pink-400 cursor-pointer transition-all text-[1.4rem]"
+            className="hover:text-pink-400 cursor-pointer transition-all text-[1.4rem] bg-pink-500 hover:bg-white  text-white rounded-md"
           />
          </a>
          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
           <CiYoutube
             width={50}
-            className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]"
+            className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]  bg-red-500 hover:bg-white  h-fit text-white rounded-sm"
           />
          </a>
          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
           <CiFacebook
             width={50}
-            className="hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer"
+            className="hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer  bg-blue-500 hover:bg-white  text-white rounded-full"
           />
          </a>
         </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function Exper() {
   return (
-    <div id="services" className=" lg:px-[10%] max-md:px-[3%] md:px-[5%] lg:py-[6rem]  md:py-[3rem] max-md:py-[2rem]
+    <div id="services" className=" lg:px-[10%] max-md:px-[3%] md:px-[5%] lg:pb-[5rem]  md:py-[3rem] max-md:py-[1.5rem]
      bg-[#ece8e2] justify-center items-center">
       <motion.h2 viewport={{once:true}} initial={{y:100}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1.5}}}
         style={{ fontFamily: "Antic Didone" }}
@@ -67,7 +67,7 @@ export default function Exper() {
           </div>
           <div className="flex flex-col gap-3 items-center md:w-[33%]">
           <motion.img whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
-              src={require("../assets/newImages/ra4.jpg")}
+              src={require("../assets/w.jpg")}
               alt=""
               className="h-[900%] object-cover rounded-t-full"
             />

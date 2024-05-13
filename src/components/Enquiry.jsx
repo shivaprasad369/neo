@@ -5,7 +5,8 @@ export default function Enquiry() {
     <div id='contact' className='xl:h-[35rem] max-md:h-[20rem] relative overflow-hidden w-[100%]'>
       <div className='flex h-full w-[100%] justify-center'>
         <div className='h-[100%] w-[100%]'>
-            <img src={require('../assets/newImages/pgjbli5yugsgwexgtqzb.jpg')} alt="" className='w-[100%] object-cover h-[100%]' />
+            <img src={require('../assets/bg.jpg')} alt="" 
+            className='w-[100%] object-cover h-[100%]' />
         </div>
         <div className='absolute flex justify-center bg-white xl:right-[4rem] md:px-[3rem] max-md:px-[2rem] mx-[3%] top-[30%]
          md:py-[1.3rem] max-md:py-[1rem] xl:top-[40%]'>

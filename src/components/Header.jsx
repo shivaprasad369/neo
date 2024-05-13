@@ -31,10 +31,10 @@ export default function Header() {
         y: 0,
         transition: { type: "spring", ease: "easeIn", duration: 0.4 },
       }}
-      className={`nav lg:px-[3rem] max-md:px-[2rem] z-40 overflow-hidden fixed w-[100vw] bg-[#9aa09ebe] shadow-md`}
+      className={`nav lg:px-[3rem] max-md:px-[2rem] z-40 overflow-hidden fixed w-[100vw] bg-[#d9c5a0db] shadow-md`}
     >
       <div className=" items-center w-[100%]   p-[1rem]  transition-all">
-        <div className="h-full text-center flex  gap-5  justify-between items-center">
+        <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
           <div
             className="flex gap-3 max-md:hidden  "
             //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}

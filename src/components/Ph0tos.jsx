@@ -43,7 +43,11 @@ export default function Ph0tos() {
 
       </SwiperSlide>
       <SwiperSlide>
-      <img src={require('../assets/couples/5.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
+      <img src={require('../assets/s.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
+
+      </SwiperSlide>
+      <SwiperSlide>
+      <img src={require('../assets/s2.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
 
       </SwiperSlide>
       </Swiper>

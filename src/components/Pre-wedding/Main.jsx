@@ -88,7 +88,7 @@ export default function Main() {
                   }}
                   className="object-cover rounded-t-full top-[3rem] max-sm:w-[100%] max-sm:h-[31rem]
                    rounded-b-full justify-center items-center"
-                  src={require("../../assets/unoptiImages/pw3.jpg")}
+                  src={require("../../assets/pw.jpg")}
                   alt=""
                 />
               </div>
@@ -131,7 +131,7 @@ export default function Main() {
                   }}
                   className="object-cover rounded-t-full top-[3rem] max-sm:w-[100%] max-sm:h-[31rem]
                   rounded-b-full justify-center items-center"
-                  src={require("../../assets/unoptiImages/pw6.jpg")}
+                  src={require("../../assets/pw2.jpg")}
                   alt=""
                 />
               </div>

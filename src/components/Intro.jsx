@@ -4,14 +4,7 @@ import { FaPlay } from "react-icons/fa6";
 import { useLocation } from "react-router-dom";
 
 export default function Intro() {
-  const location = useLocation();
-
-  useEffect(() => {
-    const element = document.getElementById("about");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  }, [location]);
+ 
   return (
     <div id="about" className="bg-[#ece8e2]  h-full overflow-hidden flex box-content max-md:px-[5%] md:px-[5%] lg:px-[10%] xl:px-[19%] pt-[5rem] pb-[3rem]">
       <div className="md:flex max-md:flex-col justify-center items-center lg:gap-16 md:gap-10 max-md:gap-10 w-[100%]">
