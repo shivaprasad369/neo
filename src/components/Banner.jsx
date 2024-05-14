@@ -2,7 +2,7 @@ import React from "react";
 // Import Swiper React components
 
 import bg1 from "../assets/newImages/banner1.jpg";
-import bg2 from "../assets/b.jpg";
+import bg2 from "../assets/b3.jpg";
 import bg3 from "../assets/b1.jpg";
 // Import Swiper styles
 import "swiper/css";
@@ -58,25 +58,25 @@ export default function Banner() {
         </div>
         <div
           style={{ zIndex: 2 }}
-          className="absolute top-[43%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
+          className="absolute top-[60%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
          text-white uppercase tracking-wider "
         >
           <h4
             className="text-3xl justify-center items-center text-center"
             style={{ fontFamily: "'Domine', sans-serif" }}
           >
-            neo
+            
           </h4>
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[6rem] md:leading-[6rem] text-center capitalize max-md:text-[2.6rem]
+            className="md:text-[6rem] md:leading-[6rem] text-center uppercase max-md:text-[2.6rem]
              max-md:flex-wrap"
             style={{ fontFamily: '"Domine", serif' }}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
-            wedding
-            <br /> Photographer
+        neo weds
+            
           </motion.span>
           {/* <p className='flex text-xl pt-[1.5rem]' style={{fontFamily: "'Overpass', sans-serif"}}> we will help to tell your love story</p> */}
           <motion.button viewport={{once:true}} initial={{scale:0.9}} whileHover={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}} 

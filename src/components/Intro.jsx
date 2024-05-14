@@ -39,7 +39,7 @@ export default function Intro() {
         <motion.div viewport={{once:true}} initial={{x:200}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:1.5}}}
         className="flex relative md:w-[50%] h-fit justify-items-center max-md:mt-3 ">
             <motion.div whileHover={{scale:1.03,transition:{ease:'easeInOut',type:'spring',duration:1}}}>
-                <img src={require('../assets/newImages/about_img.jpg')} alt=""  className="shadow-[#636161] object-cover shadow-lg "/>
+                <img src={require('../assets/abt.jpg')} alt=""  className="shadow-[#636161] object-cover shadow-lg "/>
             </motion.div>
             <div className="video-main" style={{
                     position: 'absolute',

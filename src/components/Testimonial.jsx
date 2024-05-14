@@ -13,6 +13,7 @@ import {
   Navigation,
  
   EffectFade,
+  Autoplay,
 } from "swiper/modules";
 import { motion } from "framer-motion";
 // import { useLocation } from "react-router-dom";
@@ -41,7 +42,11 @@ export default function Testimonial() {
         <Swiper
           navigation={true}
           effect={"fade"}
-          modules={[EffectFade, Navigation]}
+          autoplay={{
+            delay: 4500,
+            disableOnInteraction: false,
+          }}
+          modules={[EffectFade,Autoplay, Navigation]}
           className="mySwiper max-w-[1320px] h-[100%] overflow-hidden w-fit px-[2rem]"
         >
           <SwiperSlide>

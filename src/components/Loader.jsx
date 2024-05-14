@@ -3,7 +3,7 @@ import React from "react";
 import { Vortex} from "react-loader-spinner";
 
 const CameraLoader = () => (
-  <div className="camera-loader justify-center items-center pt-[7rem] flex ">
+  <div className="camera-loader justify-center items-center absolute w-full h-full flex ">
     
     <Vortex
   visible={true}

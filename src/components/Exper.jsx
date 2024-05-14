@@ -19,7 +19,7 @@ export default function Exper() {
         <div className="md:flex md:justify-around max-md:flex-col items-center lg:gap-20 md:gap-10 max-md:gap-8
          md:px-[2rem] lg:px-[5rem] max-md:px-[7%] py-[5%] lg:py-[5rem] max-md:[3%] w-[100%]">
           <div className="flex flex-col gap-3 items-center md:w-[33%]">
-            <motion.img whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
+            <motion.img viewport={{once:true}} initial={{scale:0.7}} whileInView={{scale:1,transition:{type:'spring',delay:0.3,ease:'easeIn',duration:1}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
               src={require("../assets/newImages/eg1.jpg")}
               alt=""
               className="h-[90%] rounded-t-full object-cover w-[100%]"
@@ -59,14 +59,16 @@ export default function Exper() {
             >
               View More
             </Link>
-            <motion.img whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
+            <motion.img viewport={{once:true}} initial={{scale:0.7}}
+             whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.6}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
               src={require("../assets/newImages/pre-wedd.jpg")}
               alt=""
               className="h-[90%] max-md:rounded-t-full  max-md:w-[100%] object-cover"
             />
           </div>
           <div className="flex flex-col gap-3 items-center md:w-[33%]">
-          <motion.img whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
+          <motion.img viewport={{once:true}} initial={{scale:0.7}}
+           whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.9}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
               src={require("../assets/w.jpg")}
               alt=""
               className="h-[900%] object-cover rounded-t-full"

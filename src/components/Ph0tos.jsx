@@ -11,7 +11,7 @@ import "./style.css";
 // import required modules
 import {
   Navigation,
-
+  Autoplay,
   EffectFade,
 } from "swiper/modules";
 import { motion } from 'framer-motion';
@@ -28,7 +28,11 @@ export default function Ph0tos() {
         <Swiper
           navigation={true}
           effect={"fade"}
-          modules={[EffectFade, Navigation]}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+          modules={[EffectFade,Autoplay, Navigation]}
           className="mySwiper justify-center items-center max-w-[1320px] "
         >
           <SwiperSlide>
