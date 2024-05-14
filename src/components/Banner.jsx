@@ -58,11 +58,11 @@ export default function Banner() {
         </div>
         <div
           style={{ zIndex: 2 }}
-          className="absolute top-[35%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
+          className="absolute top-[43%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
          text-white uppercase tracking-wider "
         >
           <h4
-            className="text-2xl justify-center items-center text-center"
+            className="text-3xl justify-center items-center text-center"
             style={{ fontFamily: "'Domine', sans-serif" }}
           >
             neo
