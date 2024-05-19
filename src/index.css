@@ -154,7 +154,8 @@ object-fit: cover;
   height: 100%;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(i*45deg)) ;
+   /* eslint-disable-next-line */
+  /* transform: rotateY(calc(i*45deg)) ; */
   -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#f7efef73);
 }
 .box1 span img{
