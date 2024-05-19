@@ -14,8 +14,8 @@ import "./Banner.css";
 
 // import required modules
 
-import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import { CiFacebook, CiYoutube } from "react-icons/ci";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -105,7 +105,7 @@ export default function Banner() {
          </a>
          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
-          <FaFacebook
+          <FaFacebook   
             width={50}
             className="hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer     rounded-full"
           />

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
@@ -14,7 +14,7 @@ import slide_image_3 from '../assets/youtube/y3.jpg';
 import slide_image_4 from '../assets/youtube/y4.jpg';
 import slide_image_5 from '../assets/youtube/y5.jpg';
 import slide_image_6 from '../assets/youtube/y6.jpg';
-import slide_image_7 from '../assets/newImages/NEO08975.jpg';
+// import slide_image_7 from '../assets/newImages/NEO08975.jpg';
 import AlertDialogSlide from './Youtube';
 
 function ImageSlider() {
