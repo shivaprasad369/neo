@@ -31,7 +31,7 @@ export default function Header() {
           y: 0,
           transition: { type: "spring", ease: "easeIn", duration: 0.4 },
         }}
-        className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] bg-[#d9c5a0db] shadow-md`}
+        className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${!stick ? 'bg-[#e0dfdb8f] text-[#111]' : 'bg-transparent text-white'} shadow-md`}
       >
         <div className=" items-center w-[100%]   p-[1rem]  transition-all">
           <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
@@ -39,7 +39,7 @@ export default function Header() {
               className="flex gap-3 max-md:hidden  "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-10 uppercase text-[15px] text-[#111] tracking-widest leading-6 font-lightbold">
+              <ul className="flex gap-10 uppercase text-[15px] tracking-widest leading-6 font-lightbold">
                 <il className="hover:text-blue-600 transition-all cursor-pointer">
                   <a href="/#home">Home</a>
                 </il>
@@ -62,7 +62,7 @@ export default function Header() {
               className="flex gap-3  max-md:hidden "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-7 uppercase text-[15px] text-[#111] tracking-widest leading-6 font-lightbold">
+              <ul className="flex gap-7 uppercase text-[15px] tracking-widest leading-6 font-lightbold">
                 <il className="hover:text-blue-600 transition-all cursor-pointer">
                   <a href="/#testimonial">TESTIMONIALS</a>
                 </il>

@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 
-import bg1 from "../assets/newImages/banner1.jpg";
+import bg1 from "../assets/b2.jpg";
 import bg2 from "../assets/b3.jpg";
 import bg3 from "../assets/b1.jpg";
 // Import Swiper styles
@@ -14,11 +14,12 @@ import "./Banner.css";
 
 // import required modules
 
-import { FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import { CiFacebook, CiYoutube } from "react-icons/ci";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { FaSquareInstagram } from "react-icons/fa6";
 export default function Banner() {
   const location = useLocation();
 
@@ -90,23 +91,23 @@ export default function Banner() {
         <div className="flex gap-5 fixed top-[55%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
          <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz">
 
-          <FaInstagram
+          <FaSquareInstagram
             width={50}
-            className="hover:text-pink-400 cursor-pointer transition-all text-[1.4rem] bg-pink-500 hover:bg-white  text-white rounded-md"
+            className="hover:text-pink-400 cursor-pointer transition-all text-[1.4rem]   rounded-md"
           />
          </a>
          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
-          <CiYoutube
+          <FaYoutube 
             width={50}
-            className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]  bg-red-500 hover:bg-white  h-fit text-white rounded-sm"
+            className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]    h-fit rounded-sm"
           />
          </a>
          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
 
-          <CiFacebook
+          <FaFacebook
             width={50}
-            className="hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer  bg-blue-500 hover:bg-white  text-white rounded-full"
+            className="hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer     rounded-full"
           />
          </a>
         </div>
