@@ -1,32 +1,32 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-import './styles.css'
-import { EffectCoverflow, Autoplay } from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import "./styles.css";
+import { EffectCoverflow, Autoplay } from "swiper/modules";
 
-import slide_image_1 from '../assets/youtube/y1.jpg';
-import slide_image_2 from '../assets/youtube/y2.jpg';
-import slide_image_3 from '../assets/youtube/y3.jpg';
-import slide_image_4 from '../assets/youtube/y4.jpg';
-import slide_image_5 from '../assets/youtube/y5.jpg';
-import slide_image_6 from '../assets/youtube/y6.jpg';
+import slide_image_1 from "../assets/youtube/y1.jpg";
+import slide_image_2 from "../assets/youtube/y2.jpg";
+import slide_image_3 from "../assets/youtube/y3.jpg";
+import slide_image_4 from "../assets/youtube/y4.jpg";
+import slide_image_5 from "../assets/youtube/y5.jpg";
+import slide_image_6 from "../assets/youtube/y6.jpg";
 // import slide_image_7 from '../assets/newImages/NEO08975.jpg';
-import AlertDialogSlide from './Youtube';
+import AlertDialogSlide from "./Youtube";
 
 function ImageSlider() {
   const [open, setOpen] = React.useState({
-    opens:false,
-    url:''
+    opens: false,
+    url: "",
   });
   // const {url,setUrl}=React.useState('')
 
   const handleClickOpen = (uri) => {
-    setOpen({opens:true,url:uri});
-    
+    setOpen({ opens: true, url: uri });
+
     // setUrl('https://www.youtube.com/watch?v=OtqxDT0IlHI&t=25s')
   };
 
@@ -34,16 +34,20 @@ function ImageSlider() {
     setOpen(false);
   };
   return (
-    <div className="container bg-[#ece8e2]">
-      <h1 className="lg:text-[2.3rem] md:text-[1.5rem] text-[#292929] max-md:text-center
+    <div className="container bg-[#ece8e2] flex flex-col justify-center items-center">
+      <h1
+        className="lg:text-[2.3rem] md:text-[1.5rem] text-[#292929] max-md:text-center
              max-md:text-[1.5rem] lg:leading-[2.7rem] tracking-wider uppercase items-center text-center"
-            style={{ fontFamily: '"Antic Didone"' }}>Wedding films</h1>
+        style={{ fontFamily: '"Antic Didone"' }}
+      >
+        Wedding films
+      </h1>
       <Swiper
-        effect={'coverflow'}
+        effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
-        slidesPerView={'auto'}
+        slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
           stretch: -20,
@@ -56,39 +60,91 @@ function ImageSlider() {
         }}
         // pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
           clickable: true,
         }}
-        modules={[EffectCoverflow,Autoplay]}
+        modules={[EffectCoverflow, Autoplay]}
         className="swiper_container"
       >
-        <SwiperSlide className='swiperslide' onClick={()=>{handleClickOpen('https://www.youtube.com/embed/oSrkkdMfH1c?si=7B1ZXX6sX1tVWbIp')}} >
-          <img className='relative' src={slide_image_1} alt="slide_image" />
-          <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>HABIB FAMILY</span>
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() => {
+            handleClickOpen(
+              "https://www.youtube.com/embed/oSrkkdMfH1c?si=7B1ZXX6sX1tVWbIp"
+            );
+          }}
+        >
+          <img className="relative" src={slide_image_1} alt="slide_image" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#3f0224dd] font-semibold bottom-[10%]">
+          Habib Family
+          </span>
         </SwiperSlide>
-        <SwiperSlide className='swiperslide' onClick={()=>handleClickOpen('https://www.youtube.com/embed/fbfB3Wv7KnU?si=-IANu8CVKFIfA2rH')}>
-          <img className='relative' src={slide_image_2} alt="slide_image" />
-          <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>PAVAN & SAMITA</span>
-        </SwiperSlide >
-        <SwiperSlide className='swiperslide' onClick={()=>handleClickOpen('https://www.youtube.com/embed/kcQoAPhFUYw?si=ylPtUpVc_nSnrwe1')}>
-          <img src={slide_image_3} alt="slide_image" className='relative'/>
-        <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>SNEHA & RAJATH</span>
-        </SwiperSlide> 
-        <SwiperSlide className='swiperslide' onClick={()=>handleClickOpen('https://www.youtube.com/embed/AKa_gG-pkT4?si=jup5mmIim_fEFEXv')}>
-          <img  src={slide_image_4} alt="slide_image" className='relative'/>
-          <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>NITESH & PURNASHREE</span>
-        
-        </SwiperSlide>
-        <SwiperSlide className='swiperslide'onClick={()=>handleClickOpen('https://www.youtube.com/embed/lPNNEs2AhRU?si=5EzNTOeQu5mVgFQD')}>
-          <img src={slide_image_5} alt="slide_image" className='relative' />
-          <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>DEEPTI & CHETAN</span>
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() =>
+            handleClickOpen(
+              "https://www.youtube.com/embed/fbfB3Wv7KnU?si=-IANu8CVKFIfA2rH"
+            )
+          }
+        >
+          <img className="relative" src={slide_image_2} alt="slide_image" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#471704dd] font-semibold bottom-[10%]">
 
+          Pavan & Samita
+          </span>
         </SwiperSlide>
-        <SwiperSlide className='swiperslide' onClick={()=>handleClickOpen('https://www.youtube.com/embed/TYMeDC6whfA?si=ve4gVBkyR_8VNL9y')}>
-          <img src={slide_image_6} alt="slide_image" className='relative'/>
-          <span className='w-full absolute flex justify-center items-center text-xl text-white font-bold bottom-[10%]'>AKARSH & AISHWARYA</span>
-
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() =>
+            handleClickOpen(
+              "https://www.youtube.com/embed/kcQoAPhFUYw?si=ylPtUpVc_nSnrwe1"
+            )
+          }
+        >
+          <img src={slide_image_3} alt="slide_image" className="relative" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#020a20dd] font-semibold bottom-[10%]">
+          Sneha & Rajath
+          </span>
+        </SwiperSlide>
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() =>
+            handleClickOpen(
+              "https://www.youtube.com/embed/AKa_gG-pkT4?si=jup5mmIim_fEFEXv"
+            )
+          }
+        >
+          <img src={slide_image_4} alt="slide_image" className="relative" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#f7f4f3] font-semibold bottom-[10%]">
+          Nitesh & Purnashree
+          </span>
+        </SwiperSlide>
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() =>
+            handleClickOpen(
+              "https://www.youtube.com/embed/lPNNEs2AhRU?si=5EzNTOeQu5mVgFQD"
+            )
+          }
+        >
+          <img src={slide_image_5} alt="slide_image" className="relative" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#2d3602dd] font-semibold bottom-[10%]">
+            Deepti & Chetan
+          </span>
+        </SwiperSlide>
+        <SwiperSlide
+          className="swiperslide"
+          onClick={() =>
+            handleClickOpen(
+              "https://www.youtube.com/embed/TYMeDC6whfA?si=ve4gVBkyR_8VNL9y"
+            )
+          }
+        >
+          <img src={slide_image_6} alt="slide_image" className="relative" />
+          <span style={{fontFamily: "Weiss-Fraktur"}}  className="w-full absolute flex tracking-wider justify-center items-center text-2xl md:text-3xl text-[#021310dd] font-semibold bottom-[10%]">
+             Akarsh & Aishwary
+          </span>
         </SwiperSlide>
         {/* <SwiperSlide className='swiperslide'onClick={()=>handleClickOpen}>
           <img src={slide_image_7} alt="slide_image" />
@@ -104,7 +160,16 @@ function ImageSlider() {
           <div className="swiper-pagination"></div>
         </div>
       </Swiper>
-      <AlertDialogSlide open={open.opens} url={open.url} setOpen={setOpen} handleClose={handleClose} handleClickOpen={handleClickOpen}/>
+      <AlertDialogSlide
+        open={open.opens}
+        url={open.url}
+        setOpen={setOpen}
+        handleClose={handleClose}
+        handleClickOpen={handleClickOpen}
+      />
+      <button className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+        <a href="https://www.youtube.com/@neo_weds">Watch more</a>
+      </button>
     </div>
   );
 }

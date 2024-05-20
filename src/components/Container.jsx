@@ -4,7 +4,7 @@ import Intro from "./Intro";
 import NewAbout from "./NewAbout";
 import Couple from "./Couple";
 import Testimonial from "./Testimonial";
-// import Ph0tos from "./Ph0tos";
+import Ph0tos from "./Ph0tos";
 import Exper from "./Exper";
 import Enquiry from "./Enquiry";
 import Images from "./Images";
@@ -38,11 +38,11 @@ export default function Containers() {
       {/* <About1 /> */}
       <Intro />
       </div>
-      <Round/>
+      <Ph0tos />   
+      {/* <Round/> */}
       <NewAbout />
       <Couple />
       <Testimonial />
-      {/* <Ph0tos /> */}
       <Exper />
       <Enquiry />
       <Images />

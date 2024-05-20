@@ -7,9 +7,9 @@ export default function Intro() {
   return (
     <div
       id="about"
-      className="bg-[#ece8e2]  h-full overflow-hidden flex box-content max-md:px-[5%] md:px-[5%] lg:px-[10%] xl:px-[10%] pt-[3rem] pb-[3rem]"
+      className="bg-[#ece8e2] justify-center items-center  h-full overflow-hidden flex box-content max-md:px-[5%] md:px-[5%] lg:px-[10%] xl:px-[10%] pt-[3rem] pb-[3rem]"
     >
-      <div className="relative md:flex max-md:flex-col justify-center items-center lg:gap-16 md:gap-10 max-md:gap-10 w-[100%]">
+      <div className="relative max-w-[1320px] md:flex max-md:flex-col justify-center items-center lg:gap-16 md:gap-10 max-md:gap-10 w-[100%]">
         <motion.div
           viewport={{ once: true }}
           initial={{ x: -200 }}
@@ -42,8 +42,8 @@ export default function Intro() {
           className="flex flex-col  gap-5 md:w-[37%]"
         >
           <h1
-            style={{ fontFamily: '"Taken by Vultures Demo",Sans-serif' }}
-            className=" w-ful text-[#e97973] pb-[-5rem] font-normal tracking-wider lg:ml-[-20rem] md:ml-[-5rem] max-md:ml-[-7rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
+            style={{ fontFamily: "Taken by Vultures Demo"}}
+            className=" w-full text-[#e97973] pb-[-5rem] font-normal tracking-wider lg:ml-[-10rem] md:ml-[-5rem] max-md:ml-[-7rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
           >
             Vikas Miskin
           </h1>

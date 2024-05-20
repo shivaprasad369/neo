@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
+// import DialogContentText from '@mui/material/DialogContentText';
 // import DialogTitle from '@mui/material/DialogTitle';
 import Slide from '@mui/material/Slide';
 
@@ -20,17 +20,18 @@ export default function AlertDialogSlide({open,setOpen,url,handleClose,handleCli
       <Dialog
         open={open}
         TransitionComponent={Transition}
-        keepMounted
+        // keepMounted
+        fullWidth={'lg'}
+        maxWidth={'xl'}
         onClose={handleClose}
-        aria-describedby="alert-dialog-slide-description"
+        // aria-describedby="alert-dialog-slide-description"
        className='w-[100vw] '
         // sx={{height:250,width:1050}}
       >
-        <DialogContent>
-          <DialogContentText id="alert-dialog-slide-description" className='md:h-[40vh] max-md:h-[20vh] w-[40vw] overflow-hidden' >
+        <DialogContent className='md:h-[80vh]  max-md:h-[40vh] w-[100%] overflow-hidden'>
            {/* {url} */}
            <iframe className='w-[100%] h-[100%]' src={url} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-          </DialogContentText>
+         
         </DialogContent>
         <DialogActions>
           

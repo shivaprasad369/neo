@@ -1,7 +1,7 @@
 import React from "react";
 // Import Swiper React components
 
-import bg1 from "../assets/b2.jpg";
+import bg1 from "../assets/banner.jpg";
 import bg2 from "../assets/b3.jpg";
 import bg3 from "../assets/b1.jpg";
 // Import Swiper styles
@@ -38,15 +38,17 @@ export default function Banner() {
         />
         <div className="absolute w-full h-full ">
           <div id="ReactBackgroundSlider">
-            <figure
-              style={{ backgroundImage: `url(${bg1})`, animationDelay: "0s" }}
-            ></figure>
-            <figure
-              style={{ backgroundImage: `url(${bg2})`, animationDelay: "6s" }}
-            ></figure>
-            <figure
+          <figure
               style={{ backgroundImage: `url(${bg3})`, animationDelay: "12s" }}
             ></figure>
+          <figure
+              style={{ backgroundImage: `url(${bg2})`, animationDelay: "0s" }}
+            ></figure>
+            <figure
+              style={{ backgroundImage: `url(${bg1})`, animationDelay: "6s" }}
+            ></figure>
+            
+        
           </div>
           {/* <BackgroundSlider
           images={[bg1, bg2, bg3]}
@@ -59,7 +61,7 @@ export default function Banner() {
         </div>
         <div
           style={{ zIndex: 2 }}
-          className="absolute top-[60%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
+          className="absolute top-[70%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
          text-white uppercase tracking-wider "
         >
           <h4
@@ -71,12 +73,13 @@ export default function Banner() {
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[6rem] md:leading-[6rem] text-center uppercase max-md:text-[2.6rem]
+            className="md:text-[1.5rem] md:leading-[1rem] font-bold text-center capitalize max-md:text-[1.5rem] text-[#f8f7f6]
              max-md:flex-wrap"
-            style={{ fontFamily: '"Domine", serif' }}
+            style={{fontFamily: "KatieRose W00 Regular"
+          }}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
-        neo weds
+        Neo Weds
             
           </motion.span>
           {/* <p className='flex text-xl pt-[1.5rem]' style={{fontFamily: "'Overpass', sans-serif"}}> we will help to tell your love story</p> */}
