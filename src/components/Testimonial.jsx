@@ -15,7 +15,7 @@ import {
   EffectFade,
   Autoplay,
 } from "swiper/modules";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import { useLocation } from "react-router-dom";
 export default function Testimonial() {
  
