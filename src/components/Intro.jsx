@@ -43,7 +43,7 @@ export default function Intro() {
         >
           <h1
             style={{ fontFamily: "Taken by Vultures Demo"}}
-            className=" w-full text-[#e97973] pb-[-5rem] font-normal tracking-wider lg:ml-[-10rem] md:ml-[-5rem] max-md:ml-[-7rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
+            className=" w-full text-[#e97973] pb-[-5rem] font-normal tracking-wider lg:ml-[-10rem] md:ml-[-5rem] max-md:ml-[-3rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
           >
             Vikas Miskin
           </h1>
