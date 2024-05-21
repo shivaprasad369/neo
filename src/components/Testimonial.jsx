@@ -37,7 +37,7 @@ export default function Testimonial() {
           ONLY AUTHENTIC FEELINGS CAPTURED FOR THE LOVING SOUL
         </h2>
       </div>
-      <motion.div viewport={{once:true}} initial={{x:-100}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
+      <div 
        className="w-[100%] md:h-[28rem] max-md:h-[55rem] overflow-hidden flex">
         <Swiper
           navigation={true}
@@ -170,7 +170,7 @@ export default function Testimonial() {
             </div>
           </SwiperSlide>
         </Swiper>
-      </motion.div>
+      </div>
       {/* </div> */}
     </div>
   );
