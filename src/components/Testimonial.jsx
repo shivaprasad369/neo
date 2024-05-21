@@ -22,7 +22,7 @@ export default function Testimonial() {
   return (
     <div id="testimonial" className="bg-[#ece8e2] justify-center items-center   flex-col gap-10 w-[100%] sm:px-[3%] md:px-[5%] lg:px-[10%] max-md:px-[0%] pt-[3rem] flex overflow-hidden">
       {/* <div className="flex flex-col justify-center items-center gap-3 box-content"> */}
-      <motion.div viewport={{once:true}} initial={{y:200}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1}}} 
+      <motion.div viewport={{once:true}} initial={{y:100}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1}}} 
        className="flex flex-col gap-3 max-w-[1320px] justify-center items-center">
         <h2
           className="text-[#968e6f] text-[13px] font-[400] justify-center items-center leading-5"
