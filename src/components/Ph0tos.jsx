@@ -12,9 +12,9 @@ import 'swiper/css/zoom';
 // import required modules
 import {
   Navigation,
-  Autoplay,
+ 
   Zoom,
-  EffectFade,
+
   Thumbs,
   FreeMode,
 } from "swiper/modules";

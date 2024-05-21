@@ -17,7 +17,7 @@ import CameraLoader from "./Loader";
 // import ImageCube from "./Rotate";
 // import { Canvas } from "react-three-fiber";
 import ImageSlider from "./Rotate";
-import Round from "./Round";
+// import Round from "./Round";
 // import svg from './Loader.svg'
 // import Loader from "./Loader";
 export default function Containers() {
