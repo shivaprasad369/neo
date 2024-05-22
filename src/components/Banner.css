@@ -15,10 +15,7 @@
   animation: imageAnimation 18s linear infinite -0.5s;
 }
 @keyframes imageAnimation {
-  /* 0% {
-    opacity: 0;
-    animation-timing-function: ease-in;
-} */
+
 
 6% {
     opacity: 1;

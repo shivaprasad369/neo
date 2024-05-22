@@ -42,7 +42,6 @@
  
   object-fit: cover;
 }
-
 .slider-controler {
   position: relative;
   bottom: 2rem;
@@ -62,12 +61,8 @@
   transform: translateX(-58%) !important;
   display: none;
 }
-
-
-
 .slider-controler .slider-arrow ion-icon {
   font-size: 2rem;
   color: #222224;
   display: none;
 }
-

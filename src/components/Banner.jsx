@@ -75,8 +75,7 @@ export default function Banner() {
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
             className="md:text-[1.5rem] md:leading-[1rem] font-bold text-center capitalize max-md:text-[1.5rem] text-[#f8f7f6]
              max-md:flex-wrap"
-            style={{fontFamily: "KatieRose W00 Regular"
-          }}
+            style={{fontFamily: '"Dancing Script", cursive' }}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
         Neo Weds
