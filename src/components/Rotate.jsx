@@ -174,7 +174,7 @@ function ImageSlider() {
       </button> */}
       <button className="p-[3px] relative">
   <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-pink-400 rounded-lg" />
-  <div className="px-8 py-2  bg-white rounded-[6px]  relative group transition duration-200 text-black hover:text-white font-bold hover:bg-transparent">
+  <div className="px-8 py-2  rounded-[6px]  relative group transition duration-200 text-black hover:text-white font-bold hover:bg-transparent">
   <a href="https://www.youtube.com/@neo_wedsf" className="flex gap-4 justify-center items-center">Watch more <span className=" bg-red-700 p-2  rounded-full " ><FaPlay className=" text-xs   text-white "/> </span> </a>
   </div>
 </button>
