@@ -3,7 +3,10 @@ import React, { useState } from 'react'
 export default function Round() {
    const [stop, setStop]= useState(false)
   return (
-    <div className='flex justify-center items-center bg-[#ece8e2] h-[100%] w-[100%] md:py-[15%] max-md:py-[20%]'>
+    <>
+
+        <div className='flex flex-col justify-center items-center bg-[#ece8e2] h-[100%] w-[100%] md:py-[15%] max-md:py-[20%]'>
+          <h1 className='text-2xl'>Gallery</h1>
       <div className='box max-md:hidden md:w-[280px] md:h-[250px] max-md:w-[150px] max-md:h-[200px]' style={{animationPlayState:stop ? 'paused' :'running'}} onMouseEnter={()=>setStop(true)} onMouseLeave={()=>setStop(false)}>
        <span className='' style={{i:1,transform:'rotateY(calc(1*45deg)) translateZ(450px)'}}> <img className='' src={require('../assets/couples/3.jpg')}   alt="" /> </span> 
         <span style={{i:2,transform:'rotateY(calc(2*45deg)) translateZ(450px)'}}><img className='' src={require('../assets/couples/2.jpg')}  alt="" /> </span>
@@ -28,5 +31,6 @@ export default function Round() {
        
        </div>
     </div>
+    </>
   )
 }

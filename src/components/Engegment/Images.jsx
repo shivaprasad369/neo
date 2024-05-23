@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Images() {
   return (
-    <div className='md:py-[3rem] max-md:py-[1.5rem] md:px-[5%] xl:px-[15%] max-md:px-3  bg-[#ece8e2]'>
+    <div className='md:py-[3rem] max-md:py-[1.5rem] md:px-[5%] xl:px-[15%] max-md:px-3  '>
       <div  className='grid md:grid-cols-6 max-md:grid-cols-3  
       max-w-[1320px] gap-2 md:h-[10rem]  object-cover box-content overflow-hidden'>
         <motion.div 

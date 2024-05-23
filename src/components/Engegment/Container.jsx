@@ -19,7 +19,7 @@ export default function Container() {
  {loader ? <CameraLoader/> 
  :
    <>
-     <div className='bg-[#ece8e2]'>
+     <div className="bg-[#d7d6dc]">
       <Header/>
       <Banner/>
       <Main/>

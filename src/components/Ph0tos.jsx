@@ -1,5 +1,5 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from "swiper/react";
+
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,89 +10,52 @@ import "swiper/css/effect-fade";
 import "./photo.css";
 import 'swiper/css/zoom';
 // import required modules
-import {
-  Navigation,
- 
-  Zoom,
 
-  Thumbs,
-  FreeMode,
-} from "swiper/modules";
 import { motion } from 'framer-motion';
-import { useState } from 'react';
+
+import data from './Gall';
 
 export default function Ph0tos() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  // const [thumbsSwiper, setThumbsSwiper] = useState({
+  //   1:false,
+  //   2:false,
+  //   3:false,
+  //   4:false,
+  //   5:false,
+  //   6:false,
+  //   7:false,
+  //   8:false,
+  //   9:false,
+  //   10:false,
+  //   11:false,
+  //   12:false,
+   
+  // });
   return (
-    <div className='flex justify-center xl:mb-[-10rem] xl:mt-[-5rem] items-center bg-[#ece8e2] lg:px-[5%] md:px-[5%] sm:px-[3%] md:pt-[1rem] max-md:pt-[3rem] overflow-hidden  '>
-       <motion.div 
+    <div className='flex flex-col relative   justify-center pt-[3rem]  items-center  lg:px-[5%] md:px-[5%] sm:px-[3%] md:pt-[1rem] max-md:pt-[3rem] overflow-hidden  '>
+        <motion.div 
       // viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
-       className='max-xl:shadow-md xl:h-[70rem] max-w-[1320px] flex  overflow-hidden shadow-black max-xl:border-[5px] w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e]  '>
+       className='max-xl:shadow-md max-w-[1320px] flex flex-col overflow-hidden  w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e]  '>
+        <h1 className='md:text-[2rem] max-md:text-[1.5rem] pb-[2rem] uppercase pt-[6rem]' >Ethereal Gallery</h1>
 
         <div 
-         className='xl:h-[50rem]   w-[100%] max-w-[1320px]  flex flex-col justify-center overflow-hidden items-center  '>
-        <Swiper
-        style={{
-          '--swiper-navigation-color': '#fff',
-          '--swiper-pagination-color': '#fff',
-        }}
-        spaceBetween={10}
-        zoom={true}
-        navigation={true}
-        thumbs={{swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null}}
-        modules={[FreeMode,Zoom, Navigation, Thumbs]}
-        className="mySwiper2 swiper2 max-w-[1320px] flex justify-center items-center h-[30rem]"
-      >
-          <SwiperSlide>
-      <img src={require('../assets/couples/2.jpg')} alt="" className=' w-[100%] justify-center object-cover items-center '/>
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/couples/3.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover '/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/couples/4.jpg')} alt="" className=' w-[100%] justify-center items-center  object-cover'/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/s.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/s2.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
-
-      </SwiperSlide>
-      </Swiper>
-      <Swiper
-        onSwiper={setThumbsSwiper}
-        spaceBetween={10}
-        slidesPerView={4}
-        freeMode={true}
-        zoom={true}
-        watchSlidesProgress={true}
-        modules={[FreeMode, Navigation,Zoom ,Thumbs]}
-        className="mySwipe1 swiper1"
-      >
-         <SwiperSlide>
-      <img src={require('../assets/couples/2.jpg')} alt="" className=' w-[100%] justify-center object-cover items-center '/>
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/couples/3.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover '/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/couples/4.jpg')} alt="" className=' w-[100%] justify-center items-center  object-cover'/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/s.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
-
-      </SwiperSlide>
-      <SwiperSlide>
-      <img src={require('../assets/s2.jpg')} alt="" className=' w-[100%] justify-center items-center object-cover'/>
-
-      </SwiperSlide>
-      </Swiper>
+         className='   w-[100%] max-w-[1320px]  flex flex-col justify-center overflow-hidden items-center  '>
+        <div className='grid xl:grid-cols-4 lg:grid-cols-3 max-md:grid-cols-2 gap-2'>
+           {data?.map((data,index)=>(
+            <motion.div viewport={{once:true} } whileHover={{scale:0.99,transition:{type:'spring'}}} initial={{opacity:0}} whileInView={{opacity:1,transition:{delay:index*0.3,type:'tween',ease:'easeInOut'}}} className='relative' key={data.id} >
+            <img src={data.img} alt="" className='w-[100%] shadow-md h-[100%] object-cover' />
+            {/* <div className={`bg-[#252424d8]  ${thumbsSwiper.index ? 'flex hover:text-blue-600' :'hidden'}  text-white text-md absolute w-full h-full top-0 left-0 flex justify-center items-center`}> 
+              Explore More
+            </div> */}
+          </motion.div>
+           )) }
+        </div>
+        <button className="p-[3px] relative mt-[2rem]">
+  <div className="absolute inset-0 bg-gradient-to-r from-pink-500  to-purple-400 rounded-lg" />
+  <div className="px-8 py-2   rounded-[6px]  relative group transition duration-200 text-black hover:text-white font-bold hover:bg-transparent">
+  <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz" className="flex gap-4 justify-center items-center">Connect now </a>
+  </div>
+</button>
         </div>
        </motion.div>
     </div>

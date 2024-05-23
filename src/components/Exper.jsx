@@ -8,7 +8,7 @@ export default function Exper() {
   const [wedBg,setWedBg]= useState(false)
   return (
     <div id="services" className=" lg:px-[5%] flex flex-col max-md:px-[3%] overflow-hidden md:px-[5%] lg:pb-[5rem]  md:py-[3rem] max-md:py-[1.5rem]
-     bg-[#ece8e2] justify-center items-center">
+     justify-center items-center">
       <motion.h2 viewport={{once:true}} initial={{y:100}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1.5}}}
         style={{ fontFamily: "Antic Didone" }}
         className="lg:text-[2.5rem] max-md:text-[1.5rem] md:text-[2rem]  text-[#292929] tracking-wider 

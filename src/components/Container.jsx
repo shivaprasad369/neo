@@ -33,11 +33,11 @@ export default function Containers() {
     <Header />
       {/* <MobileMenu/> */}
       <Banner />
-      <div className="bg-[#ece8e2]">
+      <div className="bg-[#d7d6dc]">
       <ImageSlider/>
       {/* <About1 /> */}
       <Intro />
-      </div>
+      
       <Ph0tos />   
       {/* <Round/> */}
       <NewAbout />
@@ -47,6 +47,7 @@ export default function Containers() {
       <Enquiry />
       <Images />
       <Menus />
+      </div>
       {/* <About/> */}
       {/* <Gallery/> */}
       <Footer />

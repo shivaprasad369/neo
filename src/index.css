@@ -12,14 +12,14 @@
 @import url('https://db.onlinewebfonts.com/c/24c77049c751ff638c51cc41f1a3258d?family=Taken+by+Vultures+Demo');
 .swiper-button-prev:after, .swiper-button-next:after {
   font-family: swiper-icons;
-  font-size: 20px;
+  font-size: 10px;
   text-transform: none !important;
   letter-spacing: 0;
   color: white;
 }
 .swiper-button-prev, .swiper-button-next::after {
   font-family: swiper-icons;
-  font-size: 20px;
+  font-size: 10px;
   text-transform: none !important;
   letter-spacing: 0;
   font-variant: initial;
@@ -28,11 +28,11 @@
 .swiper-button-prev, .swiper-button-next {
   position: absolute;
   border:none;
-  font-size: 20px;
+  font-size: 10px;
   padding: 0rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  background-color: #000000b7;
+  background-color: transparent;
   color: white;
  width: 0.1rem;
  height: 0.1rem;
@@ -64,7 +64,7 @@ body{
   position: absolute;
   width: 150px;
   height: 150px;
-  background: rgba(0, 0, 0, 0.3);
+ 
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   border-radius: 100%;

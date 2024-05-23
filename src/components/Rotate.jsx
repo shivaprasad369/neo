@@ -17,6 +17,8 @@ import slide_image_6 from "../assets/youtube/y6.jpg";
 // import slide_image_7 from '../assets/newImages/NEO08975.jpg';
 import AlertDialogSlide from "./Youtube";
 
+import { FaPlay } from "react-icons/fa";
+
 function ImageSlider() {
   const [open, setOpen] = React.useState({
     opens: false,
@@ -34,7 +36,7 @@ function ImageSlider() {
     setOpen(false);
   };
   return (
-    <div className="container bg-[#ece8e2] flex flex-col justify-center items-center">
+    <div className="container bg-[#d7d6dc]  flex flex-col justify-center items-center">
       <h1
         className="lg:text-[2.3rem] md:text-[1.5rem] text-[#292929] max-md:text-center
              max-md:text-[1.5rem] lg:leading-[2.7rem] tracking-wider uppercase items-center text-center"
@@ -171,9 +173,9 @@ function ImageSlider() {
       <a href="https://www.youtube.com/@neo_weds">Watch more</a>
       </button> */}
       <button className="p-[3px] relative">
-  <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-  <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-  <a href="https://www.youtube.com/@neo_weds">Watch more</a>
+  <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-pink-400 rounded-lg" />
+  <div className="px-8 py-2  bg-white rounded-[6px]  relative group transition duration-200 text-black hover:text-white font-bold hover:bg-transparent">
+  <a href="https://www.youtube.com/@neo_wedsf" className="flex gap-4 justify-center items-center">Watch more <span className=" bg-red-700 p-2  rounded-full " ><FaPlay className=" text-xs   text-white "/> </span> </a>
   </div>
 </button>
     </div>

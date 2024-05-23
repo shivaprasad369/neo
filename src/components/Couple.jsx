@@ -14,9 +14,9 @@ export default function Couple() {
   return (
     <div
       id="portfolio"
-      className="bg-[#ece8e2] w-[100%] justify-center items-center"
+      className=" w-[100%] justify-center items-center"
     >
-      <div className="lg:h-[40rem] md:h-[30rem] bg-transparent max-md:h-[20rem] w-[100%] justify-center items-center md:px-[3%]">
+      <div className="lg:h-[40rem] md:h-[30rem] max-md:h-[20rem] w-[100%] justify-center items-center md:px-[3%]">
         <Swiper
           navigation={true}
           effect={"fade"}
@@ -25,7 +25,7 @@ export default function Couple() {
             disableOnInteraction: false,
           }}
           modules={[EffectFade,Autoplay, Navigation]}
-          className="mySwiper max-w-[1320px] bg-[#ece8e2] bg-transparent"
+          className="mySwiper max-w-[1320px] bg-[#d7d6dc] "
         >
           <SwiperSlide>
             <div className="flex flex-col relative justify-center items-center w-[100%]">

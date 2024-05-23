@@ -20,7 +20,7 @@ import {
 export default function Testimonial() {
  
   return (
-    <div id="testimonial" className="bg-[#ece8e2] justify-center items-center   flex-col gap-10 w-[100%] sm:px-[3%] md:px-[5%] lg:px-[10%] max-md:px-[0%] pt-[3rem] flex overflow-hidden">
+    <div id="testimonial" className=" justify-center items-center   flex-col gap-10 w-[100%] sm:px-[3%] md:px-[5%] lg:px-[10%] max-md:px-[0%] pt-[3rem] flex overflow-hidden">
       {/* <div className="flex flex-col justify-center items-center gap-3 box-content"> */}
       <div  
        className="flex flex-col gap-3 max-w-[1320px] justify-center items-center">

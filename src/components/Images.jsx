@@ -4,7 +4,7 @@ import { FaInstagram } from 'react-icons/fa'
 
 export default function Images() {
   return (
-    <div className='md:py-[3rem] max-md:py-[1.5rem] flex flex-col gap-3 justify-start items-center md:px-[5%] xl:px-[5%] max-md:px-3  bg-[#ece8e2]'>
+    <div className='md:py-[3rem] max-md:py-[1.5rem] flex flex-col gap-3 justify-start items-center md:px-[5%] xl:px-[5%] max-md:px-3 '>
       <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
 
       <FaInstagram className='text-4xl cursor-pointer hover:text-pink-600 text-center'/>

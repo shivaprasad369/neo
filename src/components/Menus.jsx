@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 export default function Menus() {
   return (
-    <div className="w-full overflow-hidden flex justify-center items-center box-content  max-md:py-[2rem] md:py-[4rem] bg-[#ece8e2]">
+    <div className="w-full overflow-hidden flex justify-center items-center box-content  max-md:py-[2rem] md:py-[4rem]">
       <div className="md:flex max-md:flex-col gap-10 justify-center max-w-[1320px] px-[8%] ">
         <div className="flex max-md:hidden flex-col justify-center items-center  gap-5">
           <div className="flex  flex-col gap-2 text-md  text-center   " style={{fontFamily:"Lora"}}> 

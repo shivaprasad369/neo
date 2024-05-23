@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <motion.div 
     viewport={{once:true}} initial={{y:50}} whileInView={{y:0,transition:{duration:2,type:'spring',ease:'easeIn'}}} 
-    className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${!stick ? 'bg-[#e0dfdb8f] text-[#111]' : 'bg-transparent text-white'} shadow-md`}>
+    className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${stick ? 'bg-[#d7d6dc] text-[#111]' : 'bg-transparent text-white'} shadow-md`}>
       <div className='flex justify-between max-w-[1320px]  md:px-[2rem] py-[1rem] ' >
         <div className='w-[6rem]'>
             <img src={require('../../assets/unoptiImages/NEO-logo.png')} alt="" />

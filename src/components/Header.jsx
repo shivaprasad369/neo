@@ -31,7 +31,7 @@ export default function Header() {
           y: 0,
           transition: { type: "spring", ease: "easeIn", duration: 0.4 },
         }}
-        className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${!stick ? 'bg-[#e0dfdb8f] text-[#111]' : 'bg-transparent text-white'} shadow-md`}
+        className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${stick ? 'bg-[#d7d6dc] text-[#111]' : 'bg-transparent text-white'} shadow-md`}
       >
         <div className=" items-center w-[100%]   p-[1rem]  transition-all">
           <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">

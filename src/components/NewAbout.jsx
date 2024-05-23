@@ -4,7 +4,7 @@ import React from "react";
 
 export default function NewAbout() {
   return (
-    <div className="bg-[#ece8e2] overflow-hidden justify-center md:pb-[2rem] items-center max-md:pt-[2rem] md:pt-[5rem] flex">
+    <div className=" overflow-hidden justify-center md:pb-[2rem] items-center max-md:pt-[2rem] md:pt-[5rem] flex">
       <motion.div viewport={{once:true}} initial={{y:200}} whileInView={{y:0,transition:{ease:'easeInOut',type:'spring',duration:2}}}
        className="flex flex-col justify-center items-center md:mx-[7%]">
         <div className="justify-center items-center gap-2 flex flex-col xl:mx-[17%] md:mx-[5%] max-md:mx-[3%]">
