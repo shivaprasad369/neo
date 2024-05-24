@@ -38,7 +38,7 @@ export default function Ph0tos() {
         <motion.div 
       // viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
        className='max-xl:shadow-md max-w-[1320px] flex flex-col overflow-hidden  w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e]  '>
-        <h1 className='md:text-[2rem] max-md:text-[1.5rem] pb-[2rem]  md:pt-[6rem] text-[#785F37]'  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} >Ethereal Gallery</h1>
+        <h1 className='md:text-[2rem] max-md:text-[1.5rem] pb-[2rem]   text-[#785F37]'  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} >Ethereal Gallery</h1>
 
         <div 
          className='   w-[100%] max-w-[1320px]  flex flex-col justify-center overflow-hidden items-center  '>
@@ -58,14 +58,16 @@ export default function Ph0tos() {
   <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz" className="flex gap-4 justify-center items-center">Connect now </a>
   </div>
 </button> */}
+ <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz"> 
 <button className="p-[3px] mt-[2rem] mb-[2rem] relative bg-gradient-to-r from-gray-600 to-gray-400 rounded-lg" onMouseEnter={()=>setBtn(true)} onMouseLeave={()=>setBtn(false)}>
   {/* <a id="link_button-1325-20" className="ct-link-button primary-btn" href="/contact-us/" target="_self">Connect with Us</a> */}
   <div className={`absolute inset-0 w-full h-full bg-gradient-to-r from-[#785F37] to-[#c5b08d] ${btn && 'hidden'} rounded-lg `} />
   {/* <div className="absolute inset-0 bg-gradient-to-r  hover:bg-gray-700" /> */}
   <div id="link_button-1325-20" className="ct-link-button primary-btn px-8 py-2  rounded-[6px]  relative group transition duration-200 text-white font-bold hover:bg-transparent">
-  <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz"  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} className="flex gap-4 justify-center items-center">Connect now </a>
+  <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz"  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} className="flex gap-4 z-30 justify-center items-center">Connect now </a>
   </div>
 </button>
+</a>
         </div>
        </motion.div>
     </div>

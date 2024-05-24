@@ -31,7 +31,7 @@ export default function Images() {
             
         <motion.img 
         viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.5}}}
-        src={require('../assets/newImages/pic-2.jpg')} alt=""  className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
+        src={require('../assets/i1.jpg')} alt=""  className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
             </a>
             <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
             
@@ -51,14 +51,14 @@ export default function Images() {
             
         <motion.img
         viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:1.1}}}
-        src={require('../assets/newImages/pic-5.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] ' />
+        src={require('../assets/i3.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] ' />
             </a>
 
             <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
             
         <motion.img
         viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:1.3}}}
-        src={require('../assets/newImages/p1.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
+        src={require('../assets/i2.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
             </a>
       </div>
     </div>

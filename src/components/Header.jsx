@@ -33,13 +33,13 @@ export default function Header() {
         }}
         className={`nav  z-40 overflow-hidden fixed w-[100vw] bg-[#d7d6dc] shadow-md`}
       >
-        <div className="lg:px-[7rem] max-md:px-[1rem] items-center w-[100%]   p-[1.5rem]  transition-all">
+        <div className="xl:px-[6rem] lg:px-[1rem] max-[950px]:px-[1rem] items-center w-[100%]   py-[1.5rem]  transition-all">
           <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
             <div
-              className="flex gap-3 max-md:hidden  "
+              className="flex gap-3 max-[950px]:hidden  "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-10  text-[18px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
+              <ul className="flex gap-10  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
                 <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
                   <a href="/#home" style={{fontFamily:"Cinzel"}}>Home</a>
                 </il>
@@ -51,18 +51,18 @@ export default function Header() {
                 </il>
               </ul>
             </div>
-            <div className="md:w-[8rem] max-md:w-[6rem]">
+            <div className="md:w-[8rem] max-[950px]:w-[6rem]">
               <img
                 src={logo}
                 alt=""
-                className="h-[2.3rem] w-[] lg:ml-[50%] items-center "
+                className="h-[2.3rem] w-[] lg:ml-[63%] items-center "
               />
             </div>
             <div
-              className="flex gap-3  max-md:hidden "
+              className="flex gap-3  max-[950px]:hidden "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-7 uppercase text-[18px] tracking-widest leading-6 font-lightbold">
+              <ul className="flex gap-7  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold">
                 <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
                   <a href="/#testimonial" style={{fontFamily:"Cinzel"}}> Testimonials</a>
                 </il>
@@ -77,7 +77,7 @@ export default function Header() {
             </div>
             <div
               onClick={() => setMenu(true)}
-              className="hidden max-md:block  text-[3rem] cursor-pointer hover:text-blue-600"
+              className="hidden max-[950px]:block  text-[3rem] cursor-pointer hover:text-blue-600"
             >
               <MdOutlineMenu />
             </div>
@@ -90,8 +90,8 @@ export default function Header() {
         </div>
         <div className={`${stick && 'hidden'} w-[100%] flex justify-center mb-[2px] gap-0 items-center`}>
 
-        <div className="border-[2px] h-[5px] w-[51%] bg-gradient-to-r from-[#785F37]  to-[#c0a77d]  rounded-lg"/>
-        <div className="border-[2px] h-[5px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/>
+        <div className="border-[2px] h-[6px] w-[51%] bg-gradient-to-r from-[#785F37]  to-[#c0a77d]  rounded-lg"/>
+        <div className="border-[2px] h-[6px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/>
         </div>
      <div  className="bg-[#050404] absolute w-[20%] b-0"/>
       </motion.div>
