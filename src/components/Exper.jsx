@@ -10,12 +10,12 @@ export default function Exper() {
     <div id="services" className=" lg:px-[5%] flex flex-col max-md:px-[3%] overflow-hidden md:px-[5%] lg:pb-[5rem]  md:py-[3rem] max-md:py-[1.5rem]
      justify-center items-center">
       <motion.h2 viewport={{once:true}} initial={{y:100}} whileInView={{y:0,transition:{type:'spring',ease:'easeIn',duration:1.5}}}
-        style={{ fontFamily: "Antic Didone" }}
-        className="lg:text-[2.5rem] max-md:text-[1.5rem] md:text-[2rem]  text-[#292929] tracking-wider 
+        style={{ fontFamily: 'Cinzel',fontStyle:'normal' }}
+        className="lg:text-[2.5rem] max-md:text-[1.5rem] md:text-[2rem]  text-[#785F37] tracking-wider 
         font-[400] mb-[2rem] text-center
           items-center justify-center"
-      >
-        CHOOSE YOUR EXPERIENCE
+      > Choose Your Experience
+        {/* CHOOSE YOUR EXPERIENCE */}
       </motion.h2>
       <motion.div viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1,transition:{type:'spring',ease:'easeIn',duration:2}}}
       className="bg-[#292929] max-w-[1320px] w-fit justify-center text-center  items-center">
@@ -32,10 +32,10 @@ export default function Exper() {
              
             />
             <div style={{display:bg? 'block' : 'none'}} className="bg-[#e9e6e63f] rounded-t-full transition-all z-20 flex justify-center items-center w-[100%] h-[100%] absolute top-0 left-0">
-              <h1 className="flex justify-center items-center mt-[60%]">
+              <h1 className="flex justify-center items-center pt-[130%]">
               <Link
               to="/engegment/#home"
-              className="text-[20px] font-[600] text-[#070706] hover:text-blue-600 transition-all"
+              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>
@@ -86,10 +86,10 @@ export default function Exper() {
               className="h-[90%] max-md:rounded-t-full  max-md:w-[100%] object-cover"
             />
               <div style={{display:preBg? 'block' : 'none'}} className="bg-[#e9e6e63f] max-md:rounded-t-full transition-all z-20 flex justify-center items-center w-[100%] h-[100%] absolute top-0 left-0">
-              <h1 className="flex justify-center items-center mt-[60%]">
+              <h1 className="flex justify-center items-center mt-[130%]">
               <Link
               to="/pre-wedding/#home"
-              className="text-[20px] font-[600] text-[#070706] hover:text-blue-600 transition-all"
+              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>
@@ -107,10 +107,10 @@ export default function Exper() {
             />
 
 <div style={{display:wedBg? 'block' : 'none'}} className="bg-[#e9e6e63f] rounded-t-full transition-all z-20 flex justify-center items-center w-[100%] h-[100%] absolute top-0 left-0">
-              <h1 className="flex justify-center items-center mt-[60%]">
+              <h1 className="flex justify-center items-center mt-[130%]">
               <Link
               to="/wedding/#home"
-              className="text-[20px] font-[600] text-[#070706] hover:text-blue-600 transition-all"
+              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>

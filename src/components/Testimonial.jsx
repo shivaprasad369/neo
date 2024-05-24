@@ -31,10 +31,10 @@ export default function Testimonial() {
           MY PROMISE TO YOU
         </h2>
         <h2
-          className="text-[#292929] md:text-[2rem] lg:text-[2.5rem] max-md:text-[1.5rem]  md:w-[70%] text-center md:leading-[3rem]"
-          style={{ fontFamily: "'Antic Didone'" }}
-        >
-          ONLY AUTHENTIC FEELINGS CAPTURED FOR THE LOVING SOUL
+          className="text-[#785F37] md:text-[2rem] lg:text-[2.5rem] max-md:text-[1.5rem]  md:w-[70%] text-center md:leading-[3rem]"
+          style={{ fontFamily: 'Cinzel',fontStyle:'normal' }}
+        >Only Authentic Feelings Captured For The Loving Soul
+          {/* ONLY AUTHENTIC FEELINGS CAPTURED FOR THE LOVING SOUL */}
         </h2>
       </div>
       <div 

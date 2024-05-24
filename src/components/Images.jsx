@@ -10,9 +10,9 @@ export default function Images() {
       <FaInstagram className='text-4xl cursor-pointer hover:text-pink-600 text-center'/>
       </a>
       <h2
-            className="lg:text-[2rem] md:text-[1.5rem]  text-[#292929] max-md:text-center
-             max-md:text-[1.5rem] lg:leading-[2.5rem] tracking-widest capitalize pb-[2rem] "
-            style={{ fontFamily: '"Antic Didone"' }}
+            className="lg:text-[2rem] md:text-[1.5rem]  text-[#785F37] max-md:text-center
+             max-md:text-[1.5rem] lg:leading-[2.5rem] tracking-widest  pb-[2rem] "
+             style={{ fontFamily: 'Cinzel',fontStyle:'normal' }}
           >
            Follow me on instagram
           </h2>

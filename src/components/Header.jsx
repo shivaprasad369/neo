@@ -31,23 +31,23 @@ export default function Header() {
           y: 0,
           transition: { type: "spring", ease: "easeIn", duration: 0.4 },
         }}
-        className={`nav lg:px-[7rem] max-md:px-[0.5rem] z-40 overflow-hidden fixed w-[100vw] ${stick ? 'bg-[#d7d6dc] text-[#111]' : 'bg-transparent text-white'} shadow-md`}
+        className={`nav  z-40 overflow-hidden fixed w-[100vw] bg-[#d7d6dc] shadow-md`}
       >
-        <div className=" items-center w-[100%]   p-[1rem]  transition-all">
+        <div className="lg:px-[7rem] max-md:px-[1rem] items-center w-[100%]   p-[1.5rem]  transition-all">
           <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
             <div
               className="flex gap-3 max-md:hidden  "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-10 uppercase text-[15px] tracking-widest leading-6 font-lightbold">
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#home">Home</a>
+              <ul className="flex gap-10  text-[18px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
+                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
+                  <a href="/#home" style={{fontFamily:"Cinzel"}}>Home</a>
                 </il>
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#about">About</a>
+                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
+                  <a href="/#about" style={{fontFamily:"Cinzel"}}>About</a>
                 </il>
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#services">Serices</a>
+                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
+                  <a href="/#services" style={{fontFamily:"Cinzel"}}>Serices</a>
                 </il>
               </ul>
             </div>
@@ -62,16 +62,16 @@ export default function Header() {
               className="flex gap-3  max-md:hidden "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-7 uppercase text-[15px] tracking-widest leading-6 font-lightbold">
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#testimonial">TESTIMONIALS</a>
+              <ul className="flex gap-7 uppercase text-[18px] tracking-widest leading-6 font-lightbold">
+                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
+                  <a href="/#testimonial" style={{fontFamily:"Cinzel"}}> Testimonials</a>
                 </il>
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#portfolio">PORTFOLIO</a>
+                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
+                  <a href="/#portfolio" style={{fontFamily:"Cinzel"}}> Portfolio</a>
                 </il>
 
-                <il className="hover:text-blue-600 transition-all cursor-pointer">
-                  <a href="/#contact">CONTACT</a>
+                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
+                  <a href="/#contact" style={{fontFamily:"Cinzel"}}>Contact</a>
                 </il>
               </ul>
             </div>
@@ -88,6 +88,12 @@ export default function Header() {
              </div> */}
           </div>
         </div>
+        <div className={`${stick && 'hidden'} w-[100%] flex justify-center mb-[2px] gap-0 items-center`}>
+
+        <div className="border-[2px] h-[5px] w-[51%] bg-gradient-to-r from-[#785F37]  to-[#c0a77d]  rounded-lg"/>
+        <div className="border-[2px] h-[5px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/>
+        </div>
+     <div  className="bg-[#050404] absolute w-[20%] b-0"/>
       </motion.div>
       {menu && (
         <div className="flex  fixed w-full h-[100vh] bg-[#000000f3] z-40 ">

@@ -9,10 +9,10 @@ export default function NewAbout() {
        className="flex flex-col justify-center items-center md:mx-[7%]">
         <div className="justify-center items-center gap-2 flex flex-col xl:mx-[17%] md:mx-[5%] max-md:mx-[3%]">
           <motion.h2 viewport={{once:true}}  initial={{scale:0.8}} whileInView={{scale:1,transition:{ease:'easeInOut',type:'spring',duration:1,delay:0.3}}}
-            style={{ fontFamily: '"Antic Didone"' }}
-            className="lg:text-[2.5rem] md:text-[2rem] sm:text-[1.5rem] font-[500] text-[#292929] md:text-center tracking-wide max-md:text-[1.7rem] max-md:text-center"
+              style={{ fontFamily: 'Cinzel',fontStyle:'normal' }}
+            className="lg:text-[2.5rem] md:text-[2rem] sm:text-[1.5rem] font-[500] text-[#785F37] md:text-center tracking-wide max-md:text-[1.7rem] max-md:text-center"
           >
-            NEO WEDS 
+             Neo Weds 
           </motion.h2>
           <motion.h3 viewport={{once:true}}  initial={{scale:0.8}} whileInView={{scale:1,transition:{ease:'easeInOut',type:'spring',duration:1,delay:0.6}}}
             style={{ fontFamily: '"Lora"' }}

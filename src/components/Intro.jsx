@@ -43,14 +43,14 @@ export default function Intro() {
         >
           <h1
             style={{ fontFamily: "Taken by Vultures Demo"}}
-            className=" w-full text-[#e97973] pb-[-5rem] font-normal tracking-wider lg:ml-[-10rem] md:ml-[-5rem] max-md:ml-[-3rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
+            className=" w-full text-[#785F37] pb-[-5rem] font-normal tracking-wider lg:ml-[-10rem] md:ml-[-5rem] max-md:ml-[-3rem] max-md:mt-[-2rem] mb-[-2rem] text-center left-[55%] h-full top-[2rem] -z-0 text-[4rem] capitalize "
           >
             Vikas Miskin
           </h1>
           <h2
-            className="lg:text-[2rem] md:text-[1.5rem]  text-[#292929] max-md:text-center
-             max-md:text-[1.5rem] lg:leading-[2.5rem] tracking-wider uppercase"
-            style={{ fontFamily: '"Antic Didone"' }}
+            className="lg:text-[2rem] md:text-[1.5rem]  text-[#785F37] max-md:text-center
+             max-md:text-[1.5rem] lg:leading-[2.5rem] tracking-wider "
+             style={{ fontFamily: 'Cinzel',fontStyle:'normal' }}
           >
             Celebrating Eternal Love: A Glance Into The Perfect Wedding Moment
           </h2>

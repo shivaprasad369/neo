@@ -73,9 +73,9 @@ export default function Banner() {
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[1.5rem] md:leading-[1rem] font-bold text-center capitalize max-md:text-[1.5rem] text-[#f8f7f6]
+            className="md:text-[1.5rem] md:leading-[1rem]  text-center capitalize max-md:text-[1.5rem] text-[#f8f7f6]
              max-md:flex-wrap"
-            style={{fontFamily: '"Dancing Script", cursive' }}
+            style={{fontFamily: ' "IBM Plex Mono", monospace' }}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
         Neo Weds
@@ -83,7 +83,7 @@ export default function Banner() {
           </motion.span>
           {/* <p className='flex text-xl pt-[1.5rem]' style={{fontFamily: "'Overpass', sans-serif"}}> we will help to tell your love story</p> */}
           <motion.button viewport={{once:true}} initial={{scale:0.9}} whileHover={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}} 
-           className="mt-[2rem] border-2  px-[2rem] py-1 uppercase text-black bg-gray-300">
+           className="mt-[2rem] border-0 rounded-sm  px-[2rem] py-2 uppercase text-text bg-[#785F37]">
             Enquiry
           </motion.button>
         </div>

@@ -12,7 +12,7 @@ import Menus from "./Menus";
 import Footer from "./Footer";
 import Header from "./Header";
 import Banner from "./Banner";
-import CameraLoader from "./Loader";
+// import CameraLoader from "./Loader";
 // import RotatingImageSlider from "./Rotate";
 // import ImageCube from "./Rotate";
 // import { Canvas } from "react-three-fiber";
@@ -27,7 +27,10 @@ export default function Containers() {
  },3000)
   return (
     <div className="">
-{loader ? <CameraLoader/> 
+{loader ? 
+<div className="absolute w-full h-full flex justify-center items-center">
+<img src={require('../assets/NEO-logo.png')} alt="logo" width={200} className="flex justify-center items-center absolute w-[7rem] "/> 
+</div>
 :
   <>
     <Header />
