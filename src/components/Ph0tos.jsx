@@ -32,7 +32,7 @@ export default function Ph0tos() {
    
   // });
   return (
-    <div className='flex flex-col relative   justify-center pt-[3rem]  items-center  lg:px-[5%] md:px-[5%] sm:px-[3%] md:pt-[1rem] max-md:pt-[3rem] overflow-hidden  '>
+    <div className='flex flex-col relative   justify-center md:pt-[1rem]  items-center  lg:px-[5%] md:px-[5%] sm:px-[3%]  max-md:pt-[3rem] overflow-hidden  '>
         <motion.div 
       // viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
        className='max-xl:shadow-md max-w-[1320px] flex flex-col overflow-hidden  w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e]  '>
