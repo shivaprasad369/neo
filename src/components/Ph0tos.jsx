@@ -36,7 +36,7 @@ export default function Ph0tos() {
         <motion.div 
       // viewport={{once:true}} initial={{x:50}} whileInView={{x:0,transition:{type:'spring',ease:'easeIn',duration:2}}}
        className='max-xl:shadow-md max-w-[1320px] flex flex-col overflow-hidden  w-[100%] justify-center items-center  max-md:w-[100%]  max-xl:border-[#110e0e]  '>
-        <h1 className='md:text-[2rem] max-md:text-[1.5rem] pb-[2rem] uppercase pt-[6rem]' >Ethereal Gallery</h1>
+        <h1 className='md:text-[2rem] max-md:text-[1.5rem] pb-[2rem] uppercase md:pt-[6rem]' >Ethereal Gallery</h1>
 
         <div 
          className='   w-[100%] max-w-[1320px]  flex flex-col justify-center overflow-hidden items-center  '>
