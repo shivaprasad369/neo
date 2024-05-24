@@ -61,7 +61,7 @@ export default function Menus() {
             <h4>Unforgettable Moments</h4>
           </div>
 
-          <div className="border-2 border-black px-[rem] py-1 w-[8rem] text-white bg-black text-center">
+          <div className="border-0 border-black px-[rem] py-1 w-[8rem] text-white bg-[#785F37] text-center">
             <button>Enquiry here</button>
           </div>
         </div>
