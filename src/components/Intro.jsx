@@ -7,7 +7,7 @@ export default function Intro() {
   return (
     <div
       id="about"
-      className=" justify-center items-center  h-full overflow-hidden flex box-content max-md:px-[5%] md:px-[5%] lg:px-[10%] xl:px-[10%] pt-[3rem] pb-[3rem]"
+      className=" justify-center items-center  h-full overflow-hidden flex box-content max-md:px-[5%] md:px-[5%] lg:px-[10%] xl:px-[10%] md:pt-[3rem] pb-[3rem]"
     >
       <div className="relative max-w-[1320px] md:flex max-md:flex-col justify-center items-center lg:gap-16 md:gap-10 max-md:gap-10 w-[100%]">
         <motion.div
