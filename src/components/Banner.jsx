@@ -98,7 +98,7 @@ export default function Banner() {
             className="hover:text-pink-400 cursor-pointer transition-all text-[1.4rem]   rounded-md"
           />
          </a>
-         <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
+         <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi" className="h-fit">
 
           <FaYoutube 
             width={50}
