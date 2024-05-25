@@ -91,7 +91,7 @@ export default function Banner() {
       {/* <div className='absolute bottom-[-2rem] w-full h-[6rem] bg-[#c7bdbd35]'></div> */}
       <div>
         <div className="flex gap-5 fixed top-[55%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
-         <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz">
+         <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz"  className="h-[1.2rem]">
 
           <FaSquareInstagram
             width={50}
@@ -105,7 +105,7 @@ export default function Banner() {
             className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]    h-fit rounded-sm"
           />
          </a>
-         <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
+         <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi" className="h-[1.2rem]">
 
           <FaFacebook   
             width={50}
