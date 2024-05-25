@@ -88,10 +88,12 @@ export default function Header() {
              </div> */}
           </div>
         </div>
-        <div className={`${stick && 'hidden'} w-[100%] flex justify-center mb-[2px] gap-0 items-center`}>
+        <div className={`${stick && 'hidden'} w-[100%] relative flex justify-center mb-[2px] gap-0 items-center`}>
 
-        <div className="border-[2px] h-[6px] w-[51%] bg-gradient-to-r from-[#785F37]  to-[#c0a77d]  rounded-lg"/>
-        <div className="border-[2px] h-[6px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/>
+        <span className="border-[2px] h-[6px] w-[100%] bg-gradient-to-r from-[#785F37]  via-[#c0aa85] to-[#785F37]  rounded-lg"/>
+        {/* <span className="border-[2px] h-[6px] absolute z-[-10] w-[2%] bg-gradient-to-r from-[#c0a77d]  to-[#c0a77d]  rounded-lg"/> */}
+
+        {/* <span className="border-[2px] h-[6px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/> */}
         </div>
      <div  className="bg-[#050404] absolute w-[20%] b-0"/>
       </motion.div>

@@ -35,7 +35,7 @@ export default function Exper() {
               <h1 className="flex justify-center items-center pt-[130%]">
               <Link
               to="/engegment/#home"
-              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
+              className="text-[20px] font-[600] uppercase text-[#fff] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>
@@ -81,7 +81,7 @@ export default function Exper() {
               onMouseLeave={()=>setPreBg(false)}>
             <motion.img viewport={{once:true}} initial={{opacity:0}}
              whileInView={{opacity:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.6}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
-              src={require("../assets/newImages/pre-wedd.jpg")}
+              src={require("../assets/1.jpg")}
               alt=""
               className="h-[90%] max-md:rounded-t-full  max-md:w-[100%] object-cover"
             />
@@ -89,7 +89,7 @@ export default function Exper() {
               <h1 className="flex justify-center items-center mt-[130%]">
               <Link
               to="/pre-wedding/#home"
-              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
+              className="text-[20px] font-[600] uppercase text-[#fff] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>
@@ -110,7 +110,7 @@ export default function Exper() {
               <h1 className="flex justify-center items-center mt-[130%]">
               <Link
               to="/wedding/#home"
-              className="text-[20px] font-[600] uppercase text-[#070706] hover:text-[#42341a] transition-all"
+              className="text-[20px] font-[600] uppercase text-[#fff] hover:text-[#42341a] transition-all"
               style={{ fontFamily: '"Lora"' }}
             >
                 Know more</Link></h1>

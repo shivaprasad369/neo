@@ -25,7 +25,7 @@ export default function Couple() {
             disableOnInteraction: false,
           }}
           modules={[EffectFade,Autoplay, Navigation]}
-          className="mySwiper max-w-[1320px] bg-[#d7d6dc] "
+          className="mySwiper max-w-[1320px] bg-[#d7d6dc] bg-transparent "
         >
           <SwiperSlide>
             <div className="flex flex-col relative justify-center items-center w-[100%]">
@@ -125,7 +125,7 @@ export default function Couple() {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div className="flex flex-col relative justify-center items-center w-[100%]">
+            <div className="flex flex-col relative bg-transparent justify-center items-center w-[100%]">
               <div className="grid lg:grid-cols-4 max-lg:grid-cols-3 md:gap-3 max-md:gap-1 max-md:h-[13.8rem] lg:h-[30rem] max-lg:h-[23rem]">
                 <img
                   src={require("../assets/newImages/ra4.jpg")}

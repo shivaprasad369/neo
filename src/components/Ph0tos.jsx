@@ -13,7 +13,7 @@ import 'swiper/css/zoom';
 
 import { motion } from 'framer-motion';
 
-import data from './Gall';
+import data from './Pic';
 import { useState } from 'react';
 
 export default function Ph0tos() {
@@ -42,7 +42,7 @@ export default function Ph0tos() {
 
         <div 
          className='   w-[100%] max-w-[1320px]  flex flex-col justify-center overflow-hidden items-center  '>
-        <div className='grid xl:grid-cols-4 lg:grid-cols-3 max-md:grid-cols-2 gap-1'>
+        <div className='grid xl:grid-cols-4 md:grid-cols-3 max-md:grid-cols-2 gap-1'>
            {data?.map((data,index)=>(
             <motion.div viewport={{once:true} } whileHover={{scale:0.99,transition:{type:'spring'}}} initial={{opacity:0}} whileInView={{opacity:1,transition:{delay:index*0.3,type:'tween',ease:'easeInOut'}}} className='relative' key={data.id} >
             <img src={data.img} alt="" className='w-[100%] shadow-md h-[100%] object-cover' />

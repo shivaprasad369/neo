@@ -37,21 +37,21 @@ export default function Images() {
             
         <motion.img
         viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.7}}}
-        src={require('../assets/newImages/pic-3.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
+        src={require('../assets/3.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
             </a>
 
             <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
             
             <motion.img
             viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.9}}}
-            src={require('../assets/newImages/pic-4.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
+            src={require('../assets/b2.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] '/>
             </a>
 
             <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
             
         <motion.img
         viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:1.1}}}
-        src={require('../assets/i3.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] ' />
+        src={require('../assets/5.jpg')} alt="" className='object-cover h-[100%] w-[100%]  max-md:h-[130px] ' />
             </a>
 
             <a href="https://www.instagram.com/neo_weds/?igsh=MWZycTR0YjN6YmZoag%3D%3D">
