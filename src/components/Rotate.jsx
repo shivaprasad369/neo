@@ -179,7 +179,7 @@ function ImageSlider() {
   <div className={`absolute inset-0 w-full h-full bg-gradient-to-r from-[#785F37] to-[#c5b08d] ${btn && 'hidden'} rounded-lg `} />
   {/* <div className="absolute inset-0 bg-gradient-to-r  hover:bg-gray-700" /> */}
   <div id="link_button-1325-20" className="ct-link-button primary-btn px-8 py-2  rounded-[6px]  relative group transition duration-200 text-white font-bold hover:bg-transparent">
-  <a href="https://www.youtube.com/@neo_wedsf"  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} className="flex gap-4 justify-center items-center">Watch more <span className=" bg-red-700 p-2  rounded-full " ><FaPlay className=" text-xs   text-white "/> </span> </a>
+  <a href="https://www.youtube.com/@neo_wedsf"  style={{ fontFamily: 'Cinzel',fontStyle:'normal' }} className="flex gap-4 justify-center items-center">Watch more <span className=" bg-gray-500 p-2  rounded-full " ><FaPlay className=" text-xs   text-white "/> </span> </a>
   </div>
 </button>
     </div>
