@@ -41,10 +41,10 @@ export default function Intro() {
         effect={'cards'}
         loop={true}
         grabCursor={true}
-        // autoplay={{
-        //   delay: 6500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 5500,
+          disableOnInteraction: false,
+        }}
         cardsEffect= {
         { 
            perSlideOffset: 8, // Space between cards in px
