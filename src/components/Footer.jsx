@@ -7,6 +7,7 @@ export default function Footer() {
         <p className="tracking-widest font-[400] text-[12px] uppercase text-center">
           © 2024 NEOWEDS Photography | All Rights Reserved Developed by <b>ShivaTech</b>
           
+          
         </p>
       </div>
     </div>
