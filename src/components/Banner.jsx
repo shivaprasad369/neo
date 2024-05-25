@@ -90,7 +90,7 @@ export default function Banner() {
       </div>
       {/* <div className='absolute bottom-[-2rem] w-full h-[6rem] bg-[#c7bdbd35]'></div> */}
       <div>
-        <div className="flex gap-5 fixed top-[55%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
+        <div className="flex gap-[20px] fixed top-[55%] px-2 z-40 py-2 right-0 flex-col bg-white   ">
          <a href="https://www.instagram.com/neo_weds/?utm_source=qr&igsh=emlxOHhjZHJpM3kz"  className="h-[1.2rem]">
 
           <FaSquareInstagram
