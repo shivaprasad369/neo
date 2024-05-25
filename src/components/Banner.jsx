@@ -73,7 +73,7 @@ export default function Banner() {
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[3rem] md:leading-[0.5rem]  text-center capitalize max-md:text-[1.5rem] text-[#f8f7f6]
+            className="md:text-[3rem] md:leading-[0.5rem]  text-center capitalize max-md:text-[2.3rem] text-[#f8f7f6]
              max-md:flex-wrap"
             style={{fontFamily: ' "IBM Plex Mono", monospace' }}
           >
