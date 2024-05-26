@@ -73,8 +73,8 @@ export default function Banner() {
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[3rem]  md:leading-[0.5rem]  text-center uppercase font-extrabold max-md:text-[2.3rem] text-[#785F37]
-             max-md:flex-wrap text-[rgba(146,115,58,0.7)]"
+            className="md:text-[3rem]  md:leading-[0.5rem]  text-center uppercase font-extrabold max-md:text-[2.3rem] 
+             max-md:flex-wrap text-[rgba(241,240,237,0.7)]"
             style={{fontFamily: "'Intro Demo', sans-serif "}}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
