@@ -15,8 +15,10 @@ export default function Menus() {
             <h4>Unforgettable Moments</h4>
           </div>
 
-          <div className=" border-0 px-[rem] py-1 w-[8rem] text-white rounded-l-full rounded-r-full bg-[#785F37] text-center">
-            <button>Enquiry here</button>
+          <div className=" border-0 uppercase px-[rem] py-1 w-[8rem] text-white rounded-l-full rounded-r-full bg-[#785F37] text-center">
+           <a href="https://wa.link/gyll3l">
+            <button className="uppercase text-[12px]" style={{fontFamily:'Lora'}}>Enquiry here</button>
+            </a> 
           </div>
         </div>
         <div className="flex flex-col gap-2 justify-center items-center w-[30rem]  pt-[2rem] border-black md:border-l-[1px] md:border-r-[1px] px-[2rem] ">
@@ -61,7 +63,7 @@ export default function Menus() {
             <h4>Unforgettable Moments</h4>
           </div>
 
-          <a href="#whatsapp" style={{fontFamily:'Lora'}} className='text-[11px] max-md:items-center max-md:justify-center  border-0 bg-[#785F37] text-white px-[2rem] py-[0.6rem] tracking-wider font-[400] uppercase w-fit mt-4 rounded-l-full rounded-r-full'>Inquire Here</a>
+          <a href="https://wa.link/gyll3l" style={{fontFamily:'Lora'}} className='text-[11px]  max-md:items-center max-md:justify-center  border-0 bg-[#785F37] text-white px-[2rem] py-[0.6rem] tracking-wider font-[400] uppercase w-fit mt-4 rounded-l-full rounded-r-full'>Inquire Here</a>
         </div>
       </div>
     </div>

@@ -107,7 +107,7 @@ export default function Exper() {
             />
 
 <div style={{display:wedBg? 'block' : 'none'}} className="bg-[#e9e6e63f] rounded-t-full transition-all z-20 flex justify-center items-center w-[100%] h-[100%] absolute top-0 left-0">
-              <h1 className="flex justify-center items-center mt-[130%]">
+              <h1 className="flex justify-center items-center pt-[130%]">
               <Link
               to="/wedding/#home"
               className="text-[20px] font-[600] uppercase text-[#fff] hover:text-[#42341a] transition-all"

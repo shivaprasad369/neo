@@ -61,7 +61,7 @@ export default function Banner() {
         </div>
         <div
           style={{ zIndex: 2 }}
-          className="absolute top-[70%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
+          className="absolute top-[71%] flex w-[100%]  z-4 flex-col flex-wrap justify-center items-center 
          text-white uppercase tracking-wider "
         >
           <h4
@@ -73,18 +73,21 @@ export default function Banner() {
           
           <motion.span viewport={{once:true}} initial={{scale:0.4}}
            whileInView={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}}
-            className="md:text-[3rem]  md:leading-[0.5rem]  text-center uppercase font-extrabold max-md:text-[2.3rem] 
+            className="md:text-[5rem]  leading-[2.2rem]  text-center uppercase font-extrabold max-md:text-[2.5rem] 
              max-md:flex-wrap text-[rgba(241,240,237,0.7)]"
             style={{fontFamily: "'Intro Demo', sans-serif "}}
           >
         {/* 𝐰𝐞𝐝𝐝𝐢𝐧𝐠<br />𝐏𝐡𝐨𝐭𝐨𝐠𝐫𝐚𝐩𝐡𝐞 */}
-        Neo weds
-            
+        Neo weds<br/>
+            <span style={{fontFamily:'Lora'}} className="text-[18px] font-normal leading-[35px] tracking-wider text-white">Weddings | Films | Events</span>
           </motion.span>
           {/* <p className='flex text-xl pt-[1.5rem]' style={{fontFamily: "'Overpass', sans-serif"}}> we will help to tell your love story</p> */}
           <motion.button viewport={{once:true}} initial={{scale:0.9}} whileHover={{scale:1,transition:{type:'spring',ease:'easeIn',duration:1}}} 
-           className="mt-[2rem] border-0 rounded-l-full rounded-r-full px-[2rem] py-2 uppercase text-text bg-gradient-to-r from-[#785F37] to-[#c5b08d]">
+           className="mt-[1.8rem] border-0 rounded-l-full rounded-r-full px-[2.5rem] py-3 uppercase text-text bg-gradient-to-r from-[#785F37] to-[#c5b08d]">
+           
+           <a href="https://wa.link/gyll3l">
             Enquiry
+            </a>
           </motion.button>
         </div>
       </div>
