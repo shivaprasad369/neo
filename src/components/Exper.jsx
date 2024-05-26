@@ -97,7 +97,7 @@ export default function Exper() {
             </div>
           </div>
           <div className="flex flex-col gap-3 items-center md:w-[33%]">
-          <div className="relative max-md:h-[30rem]"  onMouseEnter={()=>setWedBg(true)} 
+          <div className="relative max-md:h-[28rem]"  onMouseEnter={()=>setWedBg(true)} 
               onMouseLeave={()=>setWedBg(false)}>
           <motion.img viewport={{once:true}} initial={{opacity:0}}
            whileInView={{opacity:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.9}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
