@@ -33,7 +33,7 @@ export default function Banner() {
     <div id="home" className="relative">
       <div className="relative justify-center items-center  h-screen overflow-hidden">
         <div
-          className="absolute left-0 w-[100%]  h-full bg-[#27232369] "
+          className="absolute left-0 w-[100%]  h-full "
           style={{ zIndex: -1 }}
         />
         <div className="absolute w-full h-full ">
