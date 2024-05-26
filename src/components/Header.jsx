@@ -33,7 +33,7 @@ export default function Header() {
         }}
         className={`nav  z-40 overflow-hidden fixed w-[100vw] bg-[#d7d6dc] shadow-md`}
       >
-        <div className="xl:px-[6rem] lg:px-[2.5rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]   py-[1.5rem]  transition-all">
+        <div className="xl:pl-[15%] xl:pr-[10%] lg:px-[2.5rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]   py-[0.8rem]  transition-all">
           <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
             <div
               className="flex gap-3 max-[950px]:hidden  "
@@ -47,7 +47,7 @@ export default function Header() {
                   <a href="/#about" style={{fontFamily:"Cinzel"}}>About</a>
                 </il>
                 <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
-                  <a href="/#services" style={{fontFamily:"Cinzel"}}>Serices</a>
+                  <a href="/#services" style={{fontFamily:"Cinzel"}}>Services</a>
                 </il>
               </ul>
             </div>
@@ -55,7 +55,7 @@ export default function Header() {
               <img
                 src={logo}
                 alt=""
-                className="h-[2.3rem] w-[] min-[950px]:ml-[63%] items-center "
+                className="h-[2.3rem] w-[] min-[950px]:ml-[2.5rem] items-center "
               />
             </div>
             <div
