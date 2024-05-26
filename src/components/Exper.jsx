@@ -97,13 +97,13 @@ export default function Exper() {
             </div>
           </div>
           <div className="flex flex-col gap-3 items-center md:w-[33%]">
-          <div className="relative"  onMouseEnter={()=>setWedBg(true)} 
+          <div className="relative max-md:h-[30rem]"  onMouseEnter={()=>setWedBg(true)} 
               onMouseLeave={()=>setWedBg(false)}>
           <motion.img viewport={{once:true}} initial={{opacity:0}}
            whileInView={{opacity:1,transition:{type:'spring',ease:'easeIn',duration:1,delay:0.9}}} whileHover={{scale:1.03,transition:{type:'spring',ease:'easeIn', duration:1}}}
               src={require("../assets/w.jpg")}
               alt=""
-              className="h-[90%] object-cover rounded-t-full"
+              className="h-[100%] object-cover rounded-t-full"
             />
 
 <div style={{display:wedBg? 'block' : 'none'}} className="bg-[#e9e6e63f] rounded-t-full transition-all z-20 flex justify-center items-center w-[100%] h-[100%] absolute top-0 left-0">
