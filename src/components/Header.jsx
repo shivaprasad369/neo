@@ -58,7 +58,7 @@ export default function Header() {
               <img
                 src={logo}
                 alt=""
-                className="h-[2.5rem] object-cover w-[] flex justify-center  md:w-[8rem] max-[950px]:w-[6rem] items-center "
+                className="md:h-[2.5rem] max-md:h-[2.1rem] object-cover w-[] flex justify-center  md:w-[8rem] max-[950px]:w-[6rem] items-center "
               />
             </div>
             <div
