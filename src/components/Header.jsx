@@ -39,7 +39,7 @@ export default function Header() {
               className="flex gap-3 max-[950px]:hidden  "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
-              <ul className="flex gap-10  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
+              <ul className="flex gap-8  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
                 <il className="hover:text-[#785F37] transition-all cursor-pointer">
                   <a href="/#home" style={{fontFamily:"Cinzel"}}>Home</a>
                 </il>
