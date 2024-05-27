@@ -45,9 +45,11 @@ export default function Header() {
                 </il>
                 <il className="hover:text-[#785F37] transition-all  cursor-pointer">
                   <a href="/#about" style={{fontFamily:"Cinzel"}}>About </a>
+                </il><il className="hover:text-[#785F37] transition-all  cursor-pointer">
+                  <a href="/#gallery" style={{fontFamily:"Cinzel"}}>Gallery </a>
                 </il>
                 <il className="hover:text-[#785F37] transition-all  cursor-pointer">
-                <a href="/#portfolio" style={{fontFamily:"Cinzel"}}> Portfolio</a>
+                <a href="/#services" style={{fontFamily:"Cinzel"}}>Services</a>
                   
                 </il>
               </ul>
@@ -68,7 +70,8 @@ export default function Header() {
                   <a href="/#testimonial" style={{fontFamily:"Cinzel"}}> Testimonials</a>
                 </il>
                 <il className="hover:text-[#785F37]  transition-all cursor-pointer">
-                <a href="/#services" style={{fontFamily:"Cinzel"}}>Services</a>
+                <a href="/#portfolio" style={{fontFamily:"Cinzel"}}> Portfolio</a>
+                
                 </il>
 
                 <il className="hover:text-[#785F37] transition-all  cursor-pointer">
