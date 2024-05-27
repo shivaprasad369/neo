@@ -17,7 +17,7 @@ export default function Menus() {
 
           <div className=" border-0 uppercase px-[rem] py-1 w-[8rem] text-white rounded-l-full rounded-r-full bg-[#785F37] text-center">
            <a href="https://wa.link/gyll3l">
-            <button className="uppercase text-[12px]" style={{fontFamily:'Lora'}}>Enquiry here</button>
+            <button className="uppercase text-[12px]" style={{fontFamily:'Lora'}}>Inquiry here</button>
             </a> 
           </div>
         </div>

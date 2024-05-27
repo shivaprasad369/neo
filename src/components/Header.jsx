@@ -33,29 +33,30 @@ export default function Header() {
         }}
         className={`nav  z-40 overflow-hidden fixed w-[100vw] bg-[#d7d6dc] shadow-md`}
       >
-        <div className="xl:pl-[15%] xl:pr-[10%] lg:px-[2.5rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]   py-[0.8rem]  transition-all">
-          <div className="h-full text-center flex  gap-5  justify-between items-center font-[500]">
+        <div className="xl:px-[10%] relative  lg:px-[2.5rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]  max-md:py-[0.8]  md:py-[1.1rem]  transition-all">
+          <div className="h-full text-center flex  min-[950px]:gap-[30%]  justify-center items-center font-[500]">
             <div
               className="flex gap-3 max-[950px]:hidden  "
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
               <ul className="flex gap-10  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold" style={{fontFamily:'"Cinzel", serif'}}>
-                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
+                <il className="hover:text-[#785F37] transition-all cursor-pointer">
                   <a href="/#home" style={{fontFamily:"Cinzel"}}>Home</a>
                 </il>
-                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
-                  <a href="/#about" style={{fontFamily:"Cinzel"}}>About</a>
+                <il className="hover:text-[#785F37] transition-all  cursor-pointer">
+                  <a href="/#about" style={{fontFamily:"Cinzel"}}>About </a>
                 </il>
-                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
-                  <a href="/#services" style={{fontFamily:"Cinzel"}}>Services</a>
+                <il className="hover:text-[#785F37] transition-all  cursor-pointer">
+                <a href="/#portfolio" style={{fontFamily:"Cinzel"}}> Portfolio</a>
+                  
                 </il>
               </ul>
             </div>
-            <div className="md:w-[8rem] max-[950px]:w-[6rem]">
+            <div className="min-[950px]:absolute max-[950px]:relative max-[950px]:w-full min-[950px]:h-full flex min-[950px]:justify-center min-[950px]:items-center ">
               <img
                 src={logo}
                 alt=""
-                className="h-[2.3rem] w-[] min-[950px]:ml-[2.5rem] items-center "
+                className="h-[2.5rem] w-[] flex justify-center  md:w-[8rem] max-[950px]:w-[6rem] items-center "
               />
             </div>
             <div
@@ -63,14 +64,14 @@ export default function Header() {
               //  style={{zIndex:3,position:stick ? 'fixed' : "sticky",transition:stick && '0.5s easeInOut'}}
             >
               <ul className="flex gap-7  xl:text-[18px] max-xl:text-[15px] tracking-widest leading-6 font-lightbold">
-                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
+                <il className="hover:text-[#785F37]  transition-all cursor-pointer">
                   <a href="/#testimonial" style={{fontFamily:"Cinzel"}}> Testimonials</a>
                 </il>
-                <il className="hover:text-[#785F37] hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] transition-all cursor-pointer">
-                  <a href="/#portfolio" style={{fontFamily:"Cinzel"}}> Portfolio</a>
+                <il className="hover:text-[#785F37]  transition-all cursor-pointer">
+                <a href="/#services" style={{fontFamily:"Cinzel"}}>Services</a>
                 </il>
 
-                <il className="hover:text-[#785F37] transition-all hover:border-[#785F37] border-transparent border-b-[2px] pb-[0.5rem] cursor-pointer">
+                <il className="hover:text-[#785F37] transition-all  cursor-pointer">
                   <a href="/#contact" style={{fontFamily:"Cinzel"}}>Contact</a>
                 </il>
               </ul>
@@ -88,7 +89,10 @@ export default function Header() {
              </div> */}
           </div>
         </div>
-        <div className={`${stick && 'hidden'} w-[100%] relative flex justify-center mb-[2px] gap-0 items-center`}>
+        <div className={`${stick && 'hidden'} absolute top-[90%] z-40 w-[100%]  flex justify-center
+       
+         `
+         }>
 
         <span className="border-[2px] h-[6px] w-[100%] bg-gradient-to-r from-[#785F37]  via-[#c0aa85] to-[#785F37]  rounded-lg"/>
         {/* <span className="border-[2px] h-[6px] absolute z-[-10] w-[2%] bg-gradient-to-r from-[#c0a77d]  to-[#c0a77d]  rounded-lg"/> */}

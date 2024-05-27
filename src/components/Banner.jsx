@@ -86,7 +86,7 @@ export default function Banner() {
            className="mt-[1.8rem] border-0 rounded-l-full rounded-r-full px-[2.5rem] py-3 uppercase text-text bg-gradient-to-r from-[#785F37] to-[#c5b08d]">
            
            <a href="https://wa.link/gyll3l">
-            Enquiry
+            Inquiry
             </a>
           </motion.button>
         </div>
