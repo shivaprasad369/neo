@@ -33,7 +33,7 @@ export default function Header() {
         }}
         className={`nav  z-40 overflow-hidden fixed w-[100vw] bg-[#d7d6dc] shadow-md`}
       >
-        <div className="xl:px-[10%] relative  lg:px-[2.5rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]  py-[1.1rem]  transition-all">
+        <div className="xl:px-[10%] relative  lg:px-[3rem] px-[2.5rem] max-[950px]:px-[1rem] items-center w-[100%]  py-[1.1rem]  transition-all">
           <div className="h-full text-center flex  min-[950px]:gap-[30%]  justify-center items-center font-[500]">
             <div
               className="flex gap-3 max-[950px]:hidden  "
