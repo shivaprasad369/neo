@@ -92,7 +92,7 @@ export default function Header() {
              </div> */}
           </div>
         </div>
-        <div className={`${stick && 'hidden'} absolute top-[90%] bg-transparent z-40 w-[100%]  flex justify-center
+        <div className={`${stick && 'hidden'} absolute max-md:top-[97%] md:top-[96%] bg-transparent z-40 w-[100%]  flex justify-center
        
          `
          }>
