@@ -41,7 +41,7 @@ export default function Menus() {
 
                 <CiYoutube width={50} className='hover:text-red-500 transition-all cursor-pointer text-[1.4rem]'/>
           </a>
-          <a href="https://youtube.com/@neo_weds?si=DJtusu-U61OdhECi">
+          <a href="#facebook">
 
                 <CiFacebook width={50} className='hover:text-blue-500 transition-all text-[1.4rem] cursor-pointer'/>
           </a>
