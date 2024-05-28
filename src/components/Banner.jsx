@@ -108,7 +108,7 @@ export default function Banner() {
             className="hover:text-red-500 transition-all cursor-pointer text-[1.4rem]    h-fit rounded-sm"
           />
          </a>
-         <a href="#facebook" className="h-[1.2rem]">
+         <a href="https://www.facebook.com/neofotomojography/" className="h-[1.2rem]">
 
           <FaFacebook   
             width={50}

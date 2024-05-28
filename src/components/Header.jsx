@@ -92,12 +92,12 @@ export default function Header() {
              </div> */}
           </div>
         </div>
-        <div className={`${stick && 'hidden'} absolute max-md:top-[97%] md:top-[96%] bg-transparent z-40 w-[100%]  flex justify-center
+        <div className={`${stick && 'hidden'} absolute max-md:top-[97%] md:top-[94%] bg-transparent z-40 w-[100%]  flex justify-center
        
          `
          }>
 
-        <span className="border-0 h-[2px] w-[100%] bg-gradient-to-r from-[#785F37]  via-[#c0aa85] to-[#785F37]  rounded-lg"/>
+        <span className="border-0 h-[10px] w-[100%] bg-gradient-to-r from-[#785F37]  via-[#c0aa85] to-[#785F37]  rounded-lg"/>
         {/* <span className="border-[2px] h-[6px] absolute z-[-10] w-[2%] bg-gradient-to-r from-[#c0a77d]  to-[#c0a77d]  rounded-lg"/> */}
 
         {/* <span className="border-[2px] h-[6px]  w-[51%] bg-gradient-to-r from-[#c7b18b]  to-[#785F37]  rounded-lg"/> */}
